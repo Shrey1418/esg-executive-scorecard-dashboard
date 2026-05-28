@@ -1,0 +1,913 @@
+record_id,year,audit_number,supplier_id,supplier_name,category,country,annual_spend_usd,risk_profile,is_critical,audit_score,labor_compliance_pct,env_compliance_pct,safety_compliance_pct,non_conformances,audit_result,corrective_action
+SUP-000001,2022,1,SUP-0001,"Rodriguez, Figueroa and Sanchez",Facilities Management,India,2820150.75,High Risk,False,45.5,44.15,45.71,45.42,8,Failed,True
+SUP-000002,2022,1,SUP-0002,Doyle Ltd,Professional Services,China,2386195.61,Low Risk,True,87.93,81.87,86.82,77.81,2,Approved,True
+SUP-000003,2022,2,SUP-0002,Doyle Ltd,Professional Services,China,2386195.61,Low Risk,True,79.92,82.47,66.73,75.87,3,Conditional Approval,True
+SUP-000004,2022,3,SUP-0002,Doyle Ltd,Professional Services,China,2386195.61,Low Risk,True,87.69,82.89,87.11,85.92,2,Approved,True
+SUP-000005,2022,4,SUP-0002,Doyle Ltd,Professional Services,China,2386195.61,Low Risk,True,79.1,68.73,79.09,77.25,1,Conditional Approval,True
+SUP-000006,2022,1,SUP-0003,"Mcclain, Miller and Henderson",Professional Services,India,1309435.92,High Risk,False,54.12,53.14,53.31,55.61,3,Requires Improvement,True
+SUP-000007,2022,1,SUP-0004,Davis and Sons,Raw Materials,USA,4453846.45,Medium Risk,False,57.91,58.87,59.42,58.82,5,Requires Improvement,True
+SUP-000008,2022,1,SUP-0005,"Guzman, Hoffman and Baldwin",Logistics,South Korea,4612837.62,Medium Risk,True,62.16,54.53,52.69,65.84,1,Requires Improvement,True
+SUP-000009,2022,2,SUP-0005,"Guzman, Hoffman and Baldwin",Logistics,South Korea,4612837.62,Medium Risk,True,74.35,75.91,67.46,75.74,4,Conditional Approval,True
+SUP-000010,2022,1,SUP-0006,"Gardner, Robinson and Lawrence",IT Services,China,1116465.58,Medium Risk,False,74.86,76.22,66.29,75.25,4,Conditional Approval,True
+SUP-000011,2022,1,SUP-0007,Blake and Sons,Components,China,592914.11,Medium Risk,True,62.5,56.75,57.75,58.52,2,Requires Improvement,True
+SUP-000012,2022,2,SUP-0007,Blake and Sons,Components,China,592914.11,Medium Risk,True,58.06,54.34,52.98,54.97,8,Requires Improvement,True
+SUP-000013,2022,3,SUP-0007,Blake and Sons,Components,China,592914.11,Medium Risk,True,56.56,49.65,47.32,55.97,5,Requires Improvement,True
+SUP-000014,2022,4,SUP-0007,Blake and Sons,Components,China,592914.11,Medium Risk,True,77.15,75.43,75.85,75.26,4,Conditional Approval,True
+SUP-000015,2022,1,SUP-0008,"Henderson, Ramirez and Lewis",Facilities Management,Taiwan,1247842.57,Medium Risk,True,62.66,59.47,65.58,59.41,1,Requires Improvement,True
+SUP-000016,2022,2,SUP-0008,"Henderson, Ramirez and Lewis",Facilities Management,Taiwan,1247842.57,Medium Risk,True,67.37,60.36,58.17,64.97,3,Conditional Approval,True
+SUP-000017,2022,3,SUP-0008,"Henderson, Ramirez and Lewis",Facilities Management,Taiwan,1247842.57,Medium Risk,True,61.11,59.73,57.55,59.93,3,Requires Improvement,True
+SUP-000018,2022,4,SUP-0008,"Henderson, Ramirez and Lewis",Facilities Management,Taiwan,1247842.57,Medium Risk,True,63.8,59.77,58.79,54.47,2,Requires Improvement,True
+SUP-000019,2022,1,SUP-0009,Garcia-James,IT Services,India,1252681.84,Low Risk,False,84.92,77.92,78.74,81.58,2,Conditional Approval,True
+SUP-000020,2022,1,SUP-0010,Abbott-Munoz,Professional Services,USA,3259829.29,Medium Risk,False,68.52,69.84,73.28,62.54,1,Conditional Approval,True
+SUP-000021,2022,2,SUP-0010,Abbott-Munoz,Professional Services,USA,3259829.29,Medium Risk,False,59.98,58.56,50.27,56.3,4,Requires Improvement,True
+SUP-000022,2022,1,SUP-0011,Blair PLC,Components,China,1926972.96,Low Risk,True,89.23,91.67,87.74,86.21,2,Approved,True
+SUP-000023,2022,2,SUP-0011,Blair PLC,Components,China,1926972.96,Low Risk,True,87.64,91.78,91.31,80.76,2,Approved,True
+SUP-000024,2022,1,SUP-0012,Dudley Group,Components,China,2075890.25,Low Risk,True,75.79,73.27,78.04,70.86,2,Conditional Approval,True
+SUP-000025,2022,2,SUP-0012,Dudley Group,Components,China,2075890.25,Low Risk,True,88.01,82.36,89.06,88.97,0,Approved,False
+SUP-000026,2022,1,SUP-0013,Arnold Ltd,Facilities Management,China,4043467.89,Medium Risk,False,73.72,76.68,71.63,73.51,1,Conditional Approval,True
+SUP-000027,2022,2,SUP-0013,Arnold Ltd,Facilities Management,China,4043467.89,Medium Risk,False,59.96,58.88,53.77,61.64,3,Requires Improvement,True
+SUP-000028,2022,1,SUP-0014,"Mcclure, Ward and Lee",Packaging,Vietnam,2728496.22,Low Risk,True,87.7,88.17,78.7,82.51,1,Approved,True
+SUP-000029,2022,2,SUP-0014,"Mcclure, Ward and Lee",Packaging,Vietnam,2728496.22,Low Risk,True,83.27,85.78,75.09,74.91,2,Conditional Approval,True
+SUP-000030,2022,3,SUP-0014,"Mcclure, Ward and Lee",Packaging,Vietnam,2728496.22,Low Risk,True,83.22,76.21,88.2,73.23,1,Conditional Approval,True
+SUP-000031,2022,4,SUP-0014,"Mcclure, Ward and Lee",Packaging,Vietnam,2728496.22,Low Risk,True,91.88,82.04,94.58,86.96,2,Approved,True
+SUP-000032,2022,1,SUP-0015,Williams and Sons,Raw Materials,India,4138475.4,High Risk,False,60.1,60.66,53.34,55.99,2,Requires Improvement,True
+SUP-000033,2022,2,SUP-0015,Williams and Sons,Raw Materials,India,4138475.4,High Risk,False,46.67,42.59,44.97,47.55,3,Failed,True
+SUP-000034,2022,1,SUP-0016,Galloway-Wyatt,Professional Services,USA,556217.87,Medium Risk,False,76.09,69.63,74.44,76.84,3,Conditional Approval,True
+SUP-000035,2022,1,SUP-0017,James Group,Raw Materials,China,2122124.28,Low Risk,False,75.36,79.16,76.77,74.81,3,Conditional Approval,True
+SUP-000036,2022,1,SUP-0018,"Flowers, Martin and Kelly",Professional Services,India,4689048.93,High Risk,False,68.22,68.63,77.48,70.4,3,Conditional Approval,True
+SUP-000037,2022,1,SUP-0019,"Adams, Zuniga and Wong",Facilities Management,Taiwan,273255.23,Medium Risk,False,65.63,60.46,65.82,66.63,3,Conditional Approval,True
+SUP-000038,2022,1,SUP-0020,"Reid, Ferguson and Sanchez",Components,Mexico,4942828.13,Low Risk,False,86.02,80.09,65.71,85.68,0,Approved,False
+SUP-000039,2022,2,SUP-0020,"Reid, Ferguson and Sanchez",Components,Mexico,4942828.13,Low Risk,False,93.49,87.9,95.24,87.47,1,Approved,True
+SUP-000040,2022,1,SUP-0021,Gray-Mayo,Raw Materials,Vietnam,3358554.15,Low Risk,True,,86.79,79.8,83.98,0,Approved,False
+SUP-000041,2022,2,SUP-0021,Gray-Mayo,Raw Materials,Vietnam,3358554.15,Low Risk,True,81.91,72.92,71.6,81.86,0,Conditional Approval,False
+SUP-000042,2022,1,SUP-0022,"Watts, Robinson and Nguyen",Professional Services,China,4321179.71,High Risk,True,43.56,47.15,39.0,42.87,4,Failed,True
+SUP-000043,2022,2,SUP-0022,"Watts, Robinson and Nguyen",Professional Services,China,4321179.71,High Risk,True,58.13,55.76,52.92,53.17,5,Requires Improvement,True
+SUP-000044,2022,3,SUP-0022,"Watts, Robinson and Nguyen",Professional Services,China,4321179.71,High Risk,True,47.64,45.51,47.93,44.25,4,Failed,True
+SUP-000045,2022,4,SUP-0022,"Watts, Robinson and Nguyen",Professional Services,China,4321179.71,High Risk,True,54.98,57.61,50.64,51.55,8,Requires Improvement,True
+SUP-000046,2022,1,SUP-0023,Perez Inc,Packaging,USA,852904.65,Medium Risk,False,57.8,59.97,50.69,53.49,3,Requires Improvement,True
+SUP-000047,2022,1,SUP-0024,Morales-Jones,Components,India,3700060.91,Medium Risk,False,72.15,71.91,60.08,65.29,1,Conditional Approval,True
+SUP-000048,2022,2,SUP-0024,Morales-Jones,Components,India,3700060.91,Medium Risk,False,81.78,80.15,76.38,74.03,0,Conditional Approval,False
+SUP-000049,2022,1,SUP-0025,"Walter, Edwards and Rios",Energy,South Korea,4647997.19,Low Risk,False,77.06,80.31,78.14,77.78,1,Conditional Approval,True
+SUP-000050,2022,1,SUP-0026,Wilkerson-Day,IT Services,China,2091162.22,Medium Risk,True,60.9,55.03,57.83,62.58,4,Requires Improvement,True
+SUP-000051,2022,2,SUP-0026,Wilkerson-Day,IT Services,China,2091162.22,Medium Risk,True,57.88,58.01,62.0,57.16,8,Requires Improvement,True
+SUP-000052,2022,1,SUP-0027,Baker and Sons,Energy,India,3180701.41,High Risk,False,57.73,60.43,55.95,58.31,7,Requires Improvement,True
+SUP-000053,2022,2,SUP-0027,Baker and Sons,Energy,India,3180701.41,High Risk,False,28.3,28.12,27.97,30.81,4,Failed,True
+SUP-000054,2022,1,SUP-0028,"Hoffman, Baker and Richards",IT Services,Other,2326932.34,Medium Risk,False,66.22,60.2,49.58,61.38,4,Conditional Approval,True
+SUP-000055,2022,1,SUP-0029,"Ross, Robinson and Bright",Packaging,Brazil,2570067.79,Medium Risk,False,64.98,64.52,59.21,67.61,1,Requires Improvement,True
+SUP-000056,2022,2,SUP-0029,"Ross, Robinson and Bright",Packaging,Brazil,2570067.79,Medium Risk,False,77.31,74.59,80.65,73.6,3,Conditional Approval,True
+SUP-000057,2022,1,SUP-0030,"Snyder, Campos and Callahan",Energy,Germany,2953574.7,Low Risk,False,87.31,91.42,78.85,75.55,2,Approved,True
+SUP-000058,2022,1,SUP-0031,Burton Ltd,Packaging,Germany,137009.27,Medium Risk,False,58.94,55.03,53.36,53.45,3,Requires Improvement,True
+SUP-000059,2022,1,SUP-0032,Carlson-Cruz,Facilities Management,Mexico,1137338.08,Medium Risk,False,57.21,53.46,46.61,52.42,4,Requires Improvement,True
+SUP-000060,2022,2,SUP-0032,Carlson-Cruz,Facilities Management,Mexico,1137338.08,Medium Risk,False,65.87,68.09,71.48,64.3,4,Conditional Approval,True
+SUP-000061,2022,1,SUP-0033,"Ferrell, Rice and Maddox",Energy,USA,156378.41,Low Risk,False,87.02,80.43,77.17,89.87,1,Approved,True
+SUP-000062,2022,1,SUP-0034,Frazier Inc,Energy,South Korea,3424329.91,Medium Risk,True,57.93,53.08,53.19,54.83,8,Requires Improvement,True
+SUP-000063,2022,2,SUP-0034,Frazier Inc,Energy,South Korea,3424329.91,Medium Risk,True,63.72,66.99,60.41,61.11,3,Requires Improvement,True
+SUP-000064,2022,1,SUP-0035,"Dyer, Potter and Mack",Components,China,1492310.87,Low Risk,False,90.13,90.76,91.96,82.14,0,Approved,False
+SUP-000065,2022,2,SUP-0035,"Dyer, Potter and Mack",Components,China,1492310.87,Low Risk,False,86.93,87.02,81.72,83.73,1,Approved,True
+SUP-000066,2022,1,SUP-0036,Rodriguez-Graham,Components,USA,3594751.62,Low Risk,False,71.9,70.25,69.56,65.3,1,Conditional Approval,True
+SUP-000067,2022,1,SUP-0037,Smith-Bowen,IT Services,USA,3142843.5,Medium Risk,False,52.84,52.47,43.01,46.69,3,Requires Improvement,True
+SUP-000068,2022,1,SUP-0038,"Baker, Mason and White",Raw Materials,India,4331901.01,Medium Risk,False,60.34,54.34,50.08,54.08,2,Requires Improvement,True
+SUP-000069,2022,1,SUP-0039,Harrell LLC,Logistics,USA,1075555.67,Low Risk,True,75.85,72.91,70.78,70.24,2,Conditional Approval,True
+SUP-000070,2022,2,SUP-0039,Harrell LLC,Logistics,USA,1075555.67,Low Risk,True,77.59,72.37,80.96,76.69,2,Conditional Approval,True
+SUP-000071,2022,1,SUP-0040,"Romero, Gonzalez and Brooks",Components,India,91391.97,Medium Risk,True,81.21,80.53,81.19,75.06,2,Conditional Approval,True
+SUP-000072,2022,2,SUP-0040,"Romero, Gonzalez and Brooks",Components,India,91391.97,Medium Risk,True,61.88,62.57,59.02,59.66,4,Requires Improvement,True
+SUP-000073,2022,3,SUP-0040,"Romero, Gonzalez and Brooks",Components,India,91391.97,Medium Risk,True,68.73,62.45,73.15,62.98,4,Conditional Approval,True
+SUP-000074,2022,1,SUP-0041,Ryan PLC,Professional Services,China,2357221.53,Medium Risk,False,68.84,72.84,70.49,63.68,4,Conditional Approval,True
+SUP-000075,2022,1,SUP-0042,George Group,Components,China,958105.29,Medium Risk,True,59.66,54.87,59.45,57.13,4,Requires Improvement,True
+SUP-000076,2022,2,SUP-0042,George Group,Components,China,958105.29,Medium Risk,True,69.98,79.26,74.62,64.93,2,Conditional Approval,True
+SUP-000077,2022,3,SUP-0042,George Group,Components,China,958105.29,Medium Risk,True,62.4,58.54,64.0,67.04,4,Requires Improvement,True
+SUP-000078,2022,4,SUP-0042,George Group,Components,China,958105.29,Medium Risk,True,64.64,66.93,54.43,64.13,2,Requires Improvement,True
+SUP-000079,2022,1,SUP-0043,Rodriguez LLC,Professional Services,China,4236892.83,Low Risk,True,98.21,97.24,98.7,100.0,1,Approved,True
+SUP-000080,2022,2,SUP-0043,Rodriguez LLC,Professional Services,China,4236892.83,Low Risk,True,84.39,77.37,85.18,79.14,1,Conditional Approval,True
+SUP-000081,2022,3,SUP-0043,Rodriguez LLC,Professional Services,China,4236892.83,Low Risk,True,79.18,73.41,78.28,74.59,3,Conditional Approval,True
+SUP-000082,2022,4,SUP-0043,Rodriguez LLC,Professional Services,China,4236892.83,Low Risk,True,83.53,84.84,69.84,85.68,1,Conditional Approval,True
+SUP-000083,2022,1,SUP-0044,Allen-Allen,Components,India,1561132.34,Medium Risk,False,70.93,67.25,64.44,65.9,1,Conditional Approval,True
+SUP-000084,2022,1,SUP-0045,"Arroyo, Miller and Tucker",IT Services,China,603937.94,Low Risk,False,97.69,93.51,98.24,89.38,2,Approved,True
+SUP-000085,2022,2,SUP-0045,"Arroyo, Miller and Tucker",IT Services,China,603937.94,Low Risk,False,82.84,80.44,81.5,77.54,0,Conditional Approval,False
+SUP-000086,2022,1,SUP-0046,Spence PLC,Components,China,3424283.86,Medium Risk,True,61.71,59.66,62.98,55.28,4,Requires Improvement,True
+SUP-000087,2022,2,SUP-0046,Spence PLC,Components,China,3424283.86,Medium Risk,True,77.19,75.36,71.04,76.86,2,Conditional Approval,True
+SUP-000088,2022,3,SUP-0046,Spence PLC,Components,China,3424283.86,Medium Risk,True,62.56,56.52,60.38,62.04,1,Requires Improvement,True
+SUP-000089,2022,1,SUP-0047,Anderson Group,Components,USA,3248023.71,Medium Risk,False,80.72,84.66,72.61,77.28,0,Conditional Approval,False
+SUP-000090,2022,1,SUP-0048,"Martin, Rose and Obrien",Facilities Management,Mexico,4100556.58,High Risk,False,60.89,57.59,63.26,57.55,2,Requires Improvement,True
+SUP-000091,2022,2,SUP-0048,"Martin, Rose and Obrien",Facilities Management,Mexico,4100556.58,High Risk,False,28.54,29.35,33.3,25.76,3,Failed,True
+SUP-000092,2022,1,SUP-0049,Hickman Ltd,Packaging,Germany,69123.86,Low Risk,False,95.89,93.76,95.18,96.26,1,Approved,True
+SUP-000093,2022,1,SUP-0050,"Harris, Collins and Carney",Packaging,USA,2811994.26,Low Risk,False,78.69,84.06,81.9,77.36,3,Conditional Approval,True
+SUP-000094,2022,2,SUP-0050,"Harris, Collins and Carney",Packaging,USA,2811994.26,Low Risk,False,80.99,85.68,71.44,73.23,1,Conditional Approval,True
+SUP-000095,2022,1,SUP-0051,"Brooks, Lam and Hayes",IT Services,China,4976617.11,Low Risk,False,93.26,82.04,85.69,86.32,2,Approved,True
+SUP-000096,2022,1,SUP-0052,Walker LLC,Professional Services,Brazil,2321322.63,Low Risk,True,96.96,90.02,100.0,86.94,0,Approved,False
+SUP-000097,2022,2,SUP-0052,Walker LLC,Professional Services,Brazil,2321322.63,Low Risk,True,84.41,89.84,79.8,86.03,2,Conditional Approval,True
+SUP-000098,2022,1,SUP-0053,Chapman and Sons,IT Services,Brazil,3656564.78,Medium Risk,False,67.54,61.27,67.04,60.11,4,Conditional Approval,True
+SUP-000099,2022,2,SUP-0053,Chapman and Sons,IT Services,Brazil,3656564.78,Medium Risk,False,77.28,74.72,79.88,71.46,2,Conditional Approval,True
+SUP-000100,2022,1,SUP-0054,"Robinson, Jones and Welch",Logistics,China,1411618.31,Medium Risk,False,66.72,61.01,55.29,67.22,3,Conditional Approval,True
+SUP-000101,2022,2,SUP-0054,"Robinson, Jones and Welch",Logistics,China,1411618.31,Medium Risk,False,77.39,70.67,75.55,83.43,3,Conditional Approval,True
+SUP-000102,2022,1,SUP-0055,Jones Inc,Professional Services,USA,3698747.67,Medium Risk,False,71.71,79.58,66.51,65.58,2,Conditional Approval,True
+SUP-000103,2022,2,SUP-0055,Jones Inc,Professional Services,USA,3698747.67,Medium Risk,False,61.82,52.69,58.46,63.24,3,Requires Improvement,True
+SUP-000104,2022,1,SUP-0056,Jones-Young,IT Services,Germany,4764055.44,Medium Risk,False,53.97,48.3,49.29,57.83,5,Requires Improvement,True
+SUP-000105,2022,2,SUP-0056,Jones-Young,IT Services,Germany,4764055.44,Medium Risk,False,74.95,73.47,67.71,72.98,3,Conditional Approval,True
+SUP-000106,2022,1,SUP-0057,"Washington, Ryan and Cummings",IT Services,India,4400450.23,Low Risk,False,72.8,67.25,72.69,66.75,1,Conditional Approval,True
+SUP-000107,2022,2,SUP-0057,"Washington, Ryan and Cummings",IT Services,India,4400450.23,Low Risk,False,92.79,90.79,78.41,92.98,1,Approved,True
+SUP-000108,2022,1,SUP-0058,"Johnston, Sanchez and Kennedy",Logistics,South Korea,291076.24,Medium Risk,False,73.38,73.07,66.64,65.4,2,Conditional Approval,True
+SUP-000109,2022,2,SUP-0058,"Johnston, Sanchez and Kennedy",Logistics,South Korea,291076.24,Medium Risk,False,66.18,61.04,68.08,68.09,4,Conditional Approval,True
+SUP-000110,2022,1,SUP-0059,Lee-Davis,Packaging,India,947689.36,Low Risk,False,95.12,91.28,93.12,88.82,2,Approved,True
+SUP-000111,2022,2,SUP-0059,Lee-Davis,Packaging,India,947689.36,Low Risk,False,,85.99,87.58,93.41,2,Approved,True
+SUP-000112,2022,1,SUP-0060,Gomez-Jenkins,Packaging,Germany,2863966.89,Medium Risk,False,53.03,50.96,42.59,53.56,7,Requires Improvement,True
+SUP-000113,2022,2,SUP-0060,Gomez-Jenkins,Packaging,Germany,2863966.89,Medium Risk,False,61.57,58.05,53.74,54.29,2,Requires Improvement,True
+SUP-000114,2022,1,SUP-0061,"Brown, Valdez and Lucas",Components,Vietnam,3434486.64,Medium Risk,False,59.29,60.52,52.61,55.11,3,Requires Improvement,True
+SUP-000115,2022,1,SUP-0062,Powell LLC,Packaging,Brazil,3896130.98,Low Risk,False,91.96,90.37,84.94,93.13,0,Approved,False
+SUP-000116,2022,2,SUP-0062,Powell LLC,Packaging,Brazil,3896130.98,Low Risk,False,89.34,88.3,79.61,80.71,2,Approved,True
+SUP-000117,2022,1,SUP-0063,Wright and Sons,IT Services,Germany,2631277.38,Medium Risk,True,68.31,73.26,69.72,71.42,2,Conditional Approval,True
+SUP-000118,2022,2,SUP-0063,Wright and Sons,IT Services,Germany,2631277.38,Medium Risk,True,74.74,75.56,62.0,67.18,4,Conditional Approval,True
+SUP-000119,2022,3,SUP-0063,Wright and Sons,IT Services,Germany,2631277.38,Medium Risk,True,70.2,67.26,61.29,61.52,3,Conditional Approval,True
+SUP-000120,2022,4,SUP-0063,Wright and Sons,IT Services,Germany,2631277.38,Medium Risk,True,64.26,65.64,72.03,58.19,3,Requires Improvement,True
+SUP-000121,2022,1,SUP-0064,"West, Henderson and Ramirez",Packaging,USA,1455566.93,Low Risk,False,93.99,96.18,92.08,89.86,1,Approved,True
+SUP-000122,2022,1,SUP-0065,Baxter Inc,Raw Materials,India,2134268.96,Medium Risk,False,50.29,48.12,43.97,47.57,3,Requires Improvement,True
+SUP-000123,2022,1,SUP-0066,Morton-Chase,Professional Services,Mexico,1417959.84,Medium Risk,True,78.82,76.24,81.29,75.66,4,Conditional Approval,True
+SUP-000124,2022,2,SUP-0066,Morton-Chase,Professional Services,Mexico,1417959.84,Medium Risk,True,76.1,69.08,76.27,79.63,4,Conditional Approval,True
+SUP-000125,2022,3,SUP-0066,Morton-Chase,Professional Services,Mexico,1417959.84,Medium Risk,True,55.51,49.78,56.41,57.94,8,Requires Improvement,True
+SUP-000126,2022,1,SUP-0067,Williams PLC,Energy,Germany,4307026.14,Low Risk,False,78.22,77.54,77.26,74.93,1,Conditional Approval,True
+SUP-000127,2022,2,SUP-0067,Williams PLC,Energy,Germany,4307026.14,Low Risk,False,84.65,75.78,80.82,78.31,2,Conditional Approval,True
+SUP-000128,2022,1,SUP-0068,Novak and Sons,Raw Materials,Taiwan,216617.12,Low Risk,False,91.54,92.2,84.78,94.55,2,Approved,True
+SUP-000129,2022,2,SUP-0068,Novak and Sons,Raw Materials,Taiwan,216617.12,Low Risk,False,93.23,91.21,79.8,88.49,1,Approved,True
+SUP-000130,2022,1,SUP-0069,Russell Group,Packaging,Taiwan,1173406.62,Low Risk,False,87.03,86.35,86.43,84.01,1,Approved,True
+SUP-000131,2022,1,SUP-0070,Hancock Inc,Professional Services,Germany,4232483.74,Low Risk,False,86.69,80.89,85.82,84.24,0,Approved,False
+SUP-000132,2022,1,SUP-0071,Gray Group,Logistics,Brazil,1538585.98,High Risk,False,51.49,52.84,52.62,47.8,5,Requires Improvement,True
+SUP-000133,2022,2,SUP-0071,Gray Group,Logistics,Brazil,1538585.98,High Risk,False,45.64,45.17,45.19,48.01,7,Failed,True
+SUP-000134,2022,1,SUP-0072,House-Glover,Facilities Management,Germany,1134306.31,High Risk,False,33.0,37.12,30.72,29.27,7,Failed,True
+SUP-000135,2022,1,SUP-0073,Henderson-Bernard,Professional Services,India,3171807.5,Medium Risk,True,63.69,68.32,65.91,56.44,4,Requires Improvement,True
+SUP-000136,2022,2,SUP-0073,Henderson-Bernard,Professional Services,India,3171807.5,Medium Risk,True,75.18,76.45,70.68,68.32,2,Conditional Approval,True
+SUP-000137,2022,3,SUP-0073,Henderson-Bernard,Professional Services,India,3171807.5,Medium Risk,True,,58.07,60.99,55.99,4,Requires Improvement,True
+SUP-000138,2022,1,SUP-0074,"Stanley, Tucker and Lee",Raw Materials,Germany,628104.72,Low Risk,False,,97.6,91.47,95.53,1,Approved,True
+SUP-000139,2022,1,SUP-0075,Novak PLC,IT Services,China,55596.81,High Risk,False,41.51,44.17,45.9,36.61,7,Failed,True
+SUP-000140,2022,1,SUP-0076,"Daniels, Adkins and Brown",Components,China,2601946.22,Low Risk,False,83.46,86.54,70.72,83.97,1,Conditional Approval,True
+SUP-000141,2022,2,SUP-0076,"Daniels, Adkins and Brown",Components,China,2601946.22,Low Risk,False,84.91,87.04,80.01,78.27,0,Conditional Approval,False
+SUP-000142,2022,1,SUP-0077,"Woods, Calhoun and Schmidt",IT Services,China,2807089.08,Low Risk,False,89.94,91.91,79.96,85.95,2,Approved,True
+SUP-000143,2022,2,SUP-0077,"Woods, Calhoun and Schmidt",IT Services,China,2807089.08,Low Risk,False,82.43,82.12,73.75,79.65,2,Conditional Approval,True
+SUP-000144,2022,1,SUP-0078,Yu Inc,Facilities Management,Mexico,1331768.39,High Risk,False,55.21,52.29,60.18,55.5,6,Requires Improvement,True
+SUP-000145,2022,2,SUP-0078,Yu Inc,Facilities Management,Mexico,1331768.39,High Risk,False,36.93,36.59,34.88,39.53,7,Failed,True
+SUP-000146,2022,1,SUP-0079,Jones Inc,Packaging,India,1100229.88,Low Risk,False,81.29,76.1,82.2,82.8,2,Conditional Approval,True
+SUP-000147,2022,1,SUP-0080,"Hensley, Powell and David",Professional Services,Germany,3754673.06,Medium Risk,True,72.85,78.27,70.34,71.4,2,Conditional Approval,True
+SUP-000148,2022,2,SUP-0080,"Hensley, Powell and David",Professional Services,Germany,3754673.06,Medium Risk,True,66.19,67.71,66.47,62.14,2,Conditional Approval,True
+SUP-000149,2022,3,SUP-0080,"Hensley, Powell and David",Professional Services,Germany,3754673.06,Medium Risk,True,55.96,49.72,46.27,60.17,8,Requires Improvement,True
+SUP-000150,2022,4,SUP-0080,"Hensley, Powell and David",Professional Services,Germany,3754673.06,Medium Risk,True,70.05,69.51,70.2,67.74,4,Conditional Approval,True
+SUP-000151,2022,1,SUP-0081,"Sanchez, Wheeler and Harvey",IT Services,China,1641706.45,Low Risk,True,76.65,74.46,64.85,72.02,2,Conditional Approval,True
+SUP-000152,2022,2,SUP-0081,"Sanchez, Wheeler and Harvey",IT Services,China,1641706.45,Low Risk,True,89.43,90.31,82.3,83.61,2,Approved,True
+SUP-000153,2022,3,SUP-0081,"Sanchez, Wheeler and Harvey",IT Services,China,1641706.45,Low Risk,True,83.52,85.0,77.08,82.19,2,Conditional Approval,True
+SUP-000154,2022,4,SUP-0081,"Sanchez, Wheeler and Harvey",IT Services,China,1641706.45,Low Risk,True,85.23,83.36,80.48,86.13,2,Approved,True
+SUP-000155,2022,1,SUP-0082,Sandoval-Cunningham,Energy,China,1708292.5,Medium Risk,False,71.77,71.59,70.36,68.45,4,Conditional Approval,True
+SUP-000156,2022,2,SUP-0082,Sandoval-Cunningham,Energy,China,1708292.5,Medium Risk,False,72.34,65.31,74.88,64.89,1,Conditional Approval,True
+SUP-000157,2022,1,SUP-0083,Donovan-Harris,Packaging,China,4094516.73,Low Risk,True,83.75,72.36,83.06,77.44,1,Conditional Approval,True
+SUP-000158,2022,2,SUP-0083,Donovan-Harris,Packaging,China,4094516.73,Low Risk,True,90.41,85.8,84.3,88.69,1,Approved,True
+SUP-000159,2022,1,SUP-0084,"Edwards, Baker and Anderson",Packaging,China,990226.97,Low Risk,True,94.72,88.07,89.77,87.52,1,Approved,True
+SUP-000160,2022,2,SUP-0084,"Edwards, Baker and Anderson",Packaging,China,990226.97,Low Risk,True,82.7,86.54,70.84,79.57,2,Conditional Approval,True
+SUP-000161,2022,3,SUP-0084,"Edwards, Baker and Anderson",Packaging,China,990226.97,Low Risk,True,85.69,87.35,79.62,79.3,0,Approved,False
+SUP-000162,2022,4,SUP-0084,"Edwards, Baker and Anderson",Packaging,China,990226.97,Low Risk,True,99.75,92.45,100.0,90.79,2,Approved,True
+SUP-000163,2022,1,SUP-0085,"Evans, Stewart and Walton",Facilities Management,USA,2914456.69,Low Risk,False,89.44,85.67,94.54,88.56,2,Approved,True
+SUP-000164,2022,1,SUP-0086,Smith PLC,IT Services,China,3118586.93,Low Risk,False,91.32,94.36,96.85,88.27,1,Approved,True
+SUP-000165,2022,1,SUP-0087,"Ferrell, Jones and Lewis",Raw Materials,Mexico,3085129.37,Low Risk,True,92.1,81.68,86.52,93.55,2,Approved,True
+SUP-000166,2022,2,SUP-0087,"Ferrell, Jones and Lewis",Raw Materials,Mexico,3085129.37,Low Risk,True,91.39,91.58,90.57,86.91,0,Approved,False
+SUP-000167,2022,3,SUP-0087,"Ferrell, Jones and Lewis",Raw Materials,Mexico,3085129.37,Low Risk,True,82.69,77.92,81.24,73.0,2,Conditional Approval,True
+SUP-000168,2022,1,SUP-0088,Anderson-Bailey,Components,India,1902223.55,High Risk,False,55.22,50.79,58.98,57.13,7,Requires Improvement,True
+SUP-000169,2022,1,SUP-0089,Suarez LLC,IT Services,Vietnam,4806000.18,Medium Risk,False,65.19,56.61,62.65,64.03,3,Conditional Approval,True
+SUP-000170,2022,1,SUP-0090,Moore-Bass,Energy,Vietnam,2582691.61,Medium Risk,False,68.88,59.81,74.92,61.34,4,Conditional Approval,True
+SUP-000171,2022,1,SUP-0091,"Turner, Riggs and Roman",Professional Services,USA,281407.14,Medium Risk,True,71.48,69.39,81.41,64.4,1,Conditional Approval,True
+SUP-000172,2022,2,SUP-0091,"Turner, Riggs and Roman",Professional Services,USA,281407.14,Medium Risk,True,80.02,87.74,75.23,81.93,2,Conditional Approval,True
+SUP-000173,2022,3,SUP-0091,"Turner, Riggs and Roman",Professional Services,USA,281407.14,Medium Risk,True,57.47,54.57,62.0,49.74,8,Requires Improvement,True
+SUP-000174,2022,1,SUP-0092,"Smith, Montoya and Evans",Packaging,USA,1665288.45,Medium Risk,False,68.63,69.09,64.38,65.51,4,Conditional Approval,True
+SUP-000175,2022,1,SUP-0093,"Garcia, Humphrey and Baker",Components,China,4529434.11,Low Risk,True,93.2,85.34,89.93,82.97,2,Approved,True
+SUP-000176,2022,2,SUP-0093,"Garcia, Humphrey and Baker",Components,China,4529434.11,Low Risk,True,89.02,84.6,80.42,82.73,0,Approved,False
+SUP-000177,2022,1,SUP-0094,Newton and Sons,Packaging,China,3970835.46,Low Risk,False,75.81,82.01,74.57,75.35,3,Conditional Approval,True
+SUP-000178,2022,1,SUP-0095,Campbell-Clark,Energy,Germany,570497.8,Medium Risk,False,64.71,71.68,69.29,66.34,4,Requires Improvement,True
+SUP-000179,2022,2,SUP-0095,Campbell-Clark,Energy,Germany,570497.8,Medium Risk,False,66.04,61.55,67.51,63.28,1,Conditional Approval,True
+SUP-000180,2022,1,SUP-0096,Harris-Walters,Professional Services,Germany,454362.0,High Risk,False,54.45,46.96,55.28,53.19,7,Requires Improvement,True
+SUP-000181,2022,2,SUP-0096,Harris-Walters,Professional Services,Germany,454362.0,High Risk,False,62.6,66.23,55.91,62.57,2,Requires Improvement,True
+SUP-000182,2022,1,SUP-0097,Wagner-King,Components,South Korea,1413737.63,Medium Risk,False,76.43,72.45,72.66,68.07,1,Conditional Approval,True
+SUP-000183,2022,1,SUP-0098,Davis Group,Packaging,Taiwan,1281446.46,Medium Risk,True,59.37,58.88,54.84,51.8,7,Requires Improvement,True
+SUP-000184,2022,2,SUP-0098,Davis Group,Packaging,Taiwan,1281446.46,Medium Risk,True,72.78,74.2,74.21,70.8,2,Conditional Approval,True
+SUP-000185,2022,3,SUP-0098,Davis Group,Packaging,Taiwan,1281446.46,Medium Risk,True,70.31,74.4,63.61,73.4,2,Conditional Approval,True
+SUP-000186,2022,4,SUP-0098,Davis Group,Packaging,Taiwan,1281446.46,Medium Risk,True,74.02,75.34,71.4,71.95,1,Conditional Approval,True
+SUP-000187,2022,1,SUP-0099,Williams-Cook,Facilities Management,Brazil,3573436.36,High Risk,True,38.79,37.67,36.22,37.24,3,Failed,True
+SUP-000188,2022,2,SUP-0099,Williams-Cook,Facilities Management,Brazil,3573436.36,High Risk,True,59.09,61.47,56.52,56.5,4,Requires Improvement,True
+SUP-000189,2022,1,SUP-0100,Walsh LLC,IT Services,Mexico,2983311.06,Low Risk,False,78.0,75.41,62.19,78.67,2,Conditional Approval,True
+SUP-000190,2022,2,SUP-0100,Walsh LLC,IT Services,Mexico,2983311.06,Low Risk,False,77.96,79.46,74.27,71.97,1,Conditional Approval,True
+SUP-000191,2022,1,SUP-0101,Figueroa PLC,Energy,China,3661347.34,Medium Risk,True,72.17,62.96,71.04,73.2,3,Conditional Approval,True
+SUP-000192,2022,2,SUP-0101,Figueroa PLC,Energy,China,3661347.34,Medium Risk,True,53.01,50.18,44.41,53.8,6,Requires Improvement,True
+SUP-000193,2022,1,SUP-0102,"Patterson, Smith and Jones",Components,Germany,3296206.1,High Risk,True,37.2,36.96,34.36,36.98,3,Failed,True
+SUP-000194,2022,2,SUP-0102,"Patterson, Smith and Jones",Components,Germany,3296206.1,High Risk,True,46.66,44.38,46.42,44.93,4,Failed,True
+SUP-000195,2022,3,SUP-0102,"Patterson, Smith and Jones",Components,Germany,3296206.1,High Risk,True,35.94,33.41,34.74,34.19,4,Failed,True
+SUP-000196,2022,1,SUP-0103,"Mckee, Gardner and Davenport",Professional Services,Other,3910618.11,High Risk,False,52.54,54.94,52.31,48.16,5,Requires Improvement,True
+SUP-000197,2022,2,SUP-0103,"Mckee, Gardner and Davenport",Professional Services,Other,3910618.11,High Risk,False,47.79,46.46,47.2,50.16,8,Failed,True
+SUP-000198,2022,1,SUP-0104,"Tran, Jordan and Williams",Professional Services,China,2103261.52,High Risk,False,65.16,59.18,64.47,65.51,4,Conditional Approval,True
+SUP-000199,2022,1,SUP-0105,Nolan-Flynn,IT Services,Vietnam,3427031.74,Low Risk,True,88.27,90.5,93.06,81.06,2,Approved,True
+SUP-000200,2022,2,SUP-0105,Nolan-Flynn,IT Services,Vietnam,3427031.74,Low Risk,True,78.63,78.31,71.92,81.82,2,Conditional Approval,True
+SUP-000201,2022,3,SUP-0105,Nolan-Flynn,IT Services,Vietnam,3427031.74,Low Risk,True,84.15,85.88,82.53,82.17,2,Conditional Approval,True
+SUP-000202,2022,4,SUP-0105,Nolan-Flynn,IT Services,Vietnam,3427031.74,Low Risk,True,77.93,71.71,75.28,70.75,4,Conditional Approval,True
+SUP-000203,2022,1,SUP-0106,Nolan and Sons,Facilities Management,Brazil,2402859.62,Low Risk,False,84.23,78.08,88.09,76.29,2,Conditional Approval,True
+SUP-000204,2022,1,SUP-0107,"Wright, Garcia and Deleon",Packaging,Taiwan,1570852.73,Low Risk,False,72.31,66.01,64.67,71.97,1,Conditional Approval,True
+SUP-000205,2022,1,SUP-0108,Dickson-Brady,Facilities Management,South Korea,3480469.93,Low Risk,True,76.38,77.76,80.03,70.5,2,Conditional Approval,True
+SUP-000206,2022,2,SUP-0108,Dickson-Brady,Facilities Management,South Korea,3480469.93,Low Risk,True,78.82,71.86,65.78,71.42,1,Conditional Approval,True
+SUP-000207,2022,3,SUP-0108,Dickson-Brady,Facilities Management,South Korea,3480469.93,Low Risk,True,83.51,79.42,77.43,85.66,1,Conditional Approval,True
+SUP-000208,2022,1,SUP-0109,Hancock and Sons,Logistics,Germany,3491103.38,Medium Risk,False,63.54,64.26,55.27,61.1,1,Requires Improvement,True
+SUP-000209,2022,2,SUP-0109,Hancock and Sons,Logistics,Germany,3491103.38,Medium Risk,False,,64.27,59.17,58.9,1,Requires Improvement,True
+SUP-000210,2022,1,SUP-0110,Johnson-Doyle,Components,Vietnam,4368294.73,Medium Risk,False,70.57,67.94,72.71,64.05,1,Conditional Approval,True
+SUP-000211,2022,1,SUP-0111,Patton-Jenkins,Energy,China,1586604.47,High Risk,True,55.25,52.67,52.72,51.81,7,Requires Improvement,True
+SUP-000212,2022,2,SUP-0111,Patton-Jenkins,Energy,China,1586604.47,High Risk,True,56.46,53.4,55.47,52.45,6,Requires Improvement,True
+SUP-000213,2022,1,SUP-0112,"Shields, Cochran and Adams",Raw Materials,Vietnam,2907025.79,High Risk,True,32.33,38.36,36.29,27.64,3,Failed,True
+SUP-000214,2022,2,SUP-0112,"Shields, Cochran and Adams",Raw Materials,Vietnam,2907025.79,High Risk,True,40.76,36.3,33.55,37.55,6,Failed,True
+SUP-000215,2022,1,SUP-0113,"Rodriguez, Brennan and Garrison",Facilities Management,China,4370536.44,Medium Risk,False,62.81,61.7,60.86,54.95,4,Requires Improvement,True
+SUP-000216,2022,2,SUP-0113,"Rodriguez, Brennan and Garrison",Facilities Management,China,4370536.44,Medium Risk,False,74.69,73.93,72.54,76.45,1,Conditional Approval,True
+SUP-000217,2022,1,SUP-0114,Gonzalez Group,Packaging,India,1383911.59,Low Risk,True,80.38,71.75,73.13,80.6,1,Conditional Approval,True
+SUP-000218,2022,2,SUP-0114,Gonzalez Group,Packaging,India,1383911.59,Low Risk,True,93.79,89.32,95.81,95.79,0,Approved,False
+SUP-000219,2022,1,SUP-0115,Torres-Pope,IT Services,Germany,3575579.47,Medium Risk,False,69.58,67.18,72.94,73.44,2,Conditional Approval,True
+SUP-000220,2022,2,SUP-0115,Torres-Pope,IT Services,Germany,3575579.47,Medium Risk,False,67.74,61.53,67.68,62.14,1,Conditional Approval,True
+SUP-000221,2022,1,SUP-0116,Walker Ltd,Professional Services,India,70687.97,High Risk,False,49.07,46.06,47.75,43.05,5,Failed,True
+SUP-000222,2022,1,SUP-0117,Ross LLC,IT Services,Germany,4777547.53,Medium Risk,False,73.22,71.04,61.98,66.92,3,Conditional Approval,True
+SUP-000223,2022,2,SUP-0117,Ross LLC,IT Services,Germany,4777547.53,Medium Risk,False,78.51,76.86,78.99,75.02,2,Conditional Approval,True
+SUP-000224,2022,1,SUP-0118,Rasmussen LLC,Logistics,China,4680399.47,Medium Risk,False,61.21,61.23,51.0,53.2,2,Requires Improvement,True
+SUP-000225,2022,2,SUP-0118,Rasmussen LLC,Logistics,China,4680399.47,Medium Risk,False,77.38,76.2,71.04,76.27,2,Conditional Approval,True
+SUP-000226,2022,1,SUP-0119,May-Ross,Raw Materials,USA,1478267.19,Low Risk,False,71.03,67.29,69.83,70.08,4,Conditional Approval,True
+SUP-000227,2022,2,SUP-0119,May-Ross,Raw Materials,USA,1478267.19,Low Risk,False,83.75,78.22,73.28,75.24,2,Conditional Approval,True
+SUP-000228,2022,1,SUP-0120,"Rivera, Johnson and Wiley",Packaging,USA,2019205.17,Low Risk,False,,72.95,78.25,69.2,1,Conditional Approval,True
+SUP-000229,2022,2,SUP-0120,"Rivera, Johnson and Wiley",Packaging,USA,2019205.17,Low Risk,False,87.59,84.76,81.14,79.29,2,Approved,True
+SUP-000230,2022,1,SUP-0121,White-Estes,Professional Services,Vietnam,4675166.38,Medium Risk,True,51.98,52.25,50.22,56.26,7,Requires Improvement,True
+SUP-000231,2022,2,SUP-0121,White-Estes,Professional Services,Vietnam,4675166.38,Medium Risk,True,84.2,83.3,72.74,86.64,1,Conditional Approval,True
+SUP-000232,2022,3,SUP-0121,White-Estes,Professional Services,Vietnam,4675166.38,Medium Risk,True,58.46,61.83,47.99,54.27,4,Requires Improvement,True
+SUP-000233,2022,4,SUP-0121,White-Estes,Professional Services,Vietnam,4675166.38,Medium Risk,True,66.23,60.51,58.89,61.39,2,Conditional Approval,True
+SUP-000234,2022,1,SUP-0122,Johnson-Carlson,IT Services,China,376230.16,Medium Risk,False,59.99,52.98,52.24,59.45,5,Requires Improvement,True
+SUP-000235,2022,1,SUP-0123,Chandler-Edwards,Facilities Management,China,920478.9,Medium Risk,False,57.36,54.14,49.75,58.91,4,Requires Improvement,True
+SUP-000236,2022,1,SUP-0124,"Joyce, Wilson and Lam",Facilities Management,Germany,4263466.78,Medium Risk,False,72.42,72.2,71.82,78.06,1,Conditional Approval,True
+SUP-000237,2022,2,SUP-0124,"Joyce, Wilson and Lam",Facilities Management,Germany,4263466.78,Medium Risk,False,57.49,52.71,63.92,60.88,5,Requires Improvement,True
+SUP-000238,2022,1,SUP-0125,Scott Ltd,Energy,India,1068429.67,Medium Risk,False,57.82,50.76,48.99,61.02,3,Requires Improvement,True
+SUP-000239,2022,1,SUP-0126,Smith-Frost,Energy,India,1472124.38,Medium Risk,False,63.04,65.11,56.39,60.66,3,Requires Improvement,True
+SUP-000240,2022,2,SUP-0126,Smith-Frost,Energy,India,1472124.38,Medium Risk,False,62.84,64.28,57.6,62.02,2,Requires Improvement,True
+SUP-000241,2022,1,SUP-0127,"Mcdaniel, Bentley and Mclaughlin",Components,Mexico,4584648.55,Low Risk,False,80.94,85.48,85.62,76.81,0,Conditional Approval,False
+SUP-000242,2022,2,SUP-0127,"Mcdaniel, Bentley and Mclaughlin",Components,Mexico,4584648.55,Low Risk,False,77.22,70.91,80.15,73.85,3,Conditional Approval,True
+SUP-000243,2022,1,SUP-0128,Diaz Inc,Energy,China,380211.42,Medium Risk,True,72.19,73.8,63.98,75.38,2,Conditional Approval,True
+SUP-000244,2022,2,SUP-0128,Diaz Inc,Energy,China,380211.42,Medium Risk,True,83.37,77.79,88.53,84.08,2,Conditional Approval,True
+SUP-000245,2022,1,SUP-0129,"Mccall, Hanson and Alvarado",Professional Services,China,233001.77,Low Risk,True,81.37,83.8,78.94,81.03,2,Conditional Approval,True
+SUP-000246,2022,2,SUP-0129,"Mccall, Hanson and Alvarado",Professional Services,China,233001.77,Low Risk,True,79.22,70.82,74.86,69.99,4,Conditional Approval,True
+SUP-000247,2022,3,SUP-0129,"Mccall, Hanson and Alvarado",Professional Services,China,233001.77,Low Risk,True,86.95,76.49,90.46,88.71,0,Approved,False
+SUP-000248,2022,1,SUP-0130,Cortez LLC,Energy,USA,174474.58,Low Risk,True,88.64,89.0,75.47,79.21,2,Approved,True
+SUP-000249,2022,2,SUP-0130,Cortez LLC,Energy,USA,174474.58,Low Risk,True,74.43,77.38,70.59,72.41,1,Conditional Approval,True
+SUP-000250,2022,3,SUP-0130,Cortez LLC,Energy,USA,174474.58,Low Risk,True,90.04,82.98,77.34,86.61,2,Approved,True
+SUP-000251,2022,1,SUP-0131,"Parker, Ortiz and Powell",Logistics,USA,3862465.81,Low Risk,True,84.62,78.87,77.79,79.05,2,Conditional Approval,True
+SUP-000252,2022,2,SUP-0131,"Parker, Ortiz and Powell",Logistics,USA,3862465.81,Low Risk,True,85.52,88.91,67.22,84.5,0,Approved,False
+SUP-000253,2022,3,SUP-0131,"Parker, Ortiz and Powell",Logistics,USA,3862465.81,Low Risk,True,93.79,88.03,95.67,94.03,1,Approved,True
+SUP-000254,2022,1,SUP-0132,Spencer-Lee,Raw Materials,Mexico,123870.4,High Risk,False,43.99,39.33,40.61,35.06,3,Failed,True
+SUP-000255,2022,1,SUP-0133,"Bentley, Byrd and Orr",Professional Services,China,1972814.62,Low Risk,False,78.97,83.31,74.79,82.99,2,Conditional Approval,True
+SUP-000256,2022,2,SUP-0133,"Bentley, Byrd and Orr",Professional Services,China,1972814.62,Low Risk,False,74.89,69.41,67.38,69.34,2,Conditional Approval,True
+SUP-000257,2022,1,SUP-0134,"Carroll, Sullivan and Bass",Packaging,South Korea,873463.75,High Risk,True,52.0,56.13,56.3,55.09,5,Requires Improvement,True
+SUP-000258,2022,2,SUP-0134,"Carroll, Sullivan and Bass",Packaging,South Korea,873463.75,High Risk,True,32.85,33.03,33.21,32.07,4,Failed,True
+SUP-000259,2022,1,SUP-0135,Mitchell-Jordan,Packaging,USA,4601835.38,High Risk,True,30.99,30.57,29.76,30.03,3,Failed,True
+SUP-000260,2022,2,SUP-0135,Mitchell-Jordan,Packaging,USA,4601835.38,High Risk,True,,37.63,44.15,38.4,7,Failed,True
+SUP-000261,2022,3,SUP-0135,Mitchell-Jordan,Packaging,USA,4601835.38,High Risk,True,49.12,50.56,47.43,52.16,5,Failed,True
+SUP-000262,2022,1,SUP-0136,"Lawson, Morris and Ramos",Packaging,China,2887709.8,Medium Risk,True,69.16,65.86,61.83,63.53,2,Conditional Approval,True
+SUP-000263,2022,2,SUP-0136,"Lawson, Morris and Ramos",Packaging,China,2887709.8,Medium Risk,True,61.41,63.34,51.58,60.64,3,Requires Improvement,True
+SUP-000264,2022,3,SUP-0136,"Lawson, Morris and Ramos",Packaging,China,2887709.8,Medium Risk,True,69.47,64.08,60.88,63.96,1,Conditional Approval,True
+SUP-000265,2022,1,SUP-0137,"Lewis, Kennedy and Santana",Components,China,3128458.17,Medium Risk,False,61.82,56.88,55.35,63.93,1,Requires Improvement,True
+SUP-000266,2022,1,SUP-0138,"Jackson, Miller and Robertson",Logistics,USA,2834536.09,Medium Risk,True,74.56,73.98,68.38,69.05,2,Conditional Approval,True
+SUP-000267,2022,2,SUP-0138,"Jackson, Miller and Robertson",Logistics,USA,2834536.09,Medium Risk,True,67.3,70.08,70.68,65.89,2,Conditional Approval,True
+SUP-000268,2022,3,SUP-0138,"Jackson, Miller and Robertson",Logistics,USA,2834536.09,Medium Risk,True,70.02,70.47,64.52,73.21,2,Conditional Approval,True
+SUP-000269,2022,4,SUP-0138,"Jackson, Miller and Robertson",Logistics,USA,2834536.09,Medium Risk,True,61.6,57.44,59.26,53.02,3,Requires Improvement,True
+SUP-000270,2022,1,SUP-0139,"Harvey, Davis and Crane",Raw Materials,Germany,4114153.21,High Risk,False,42.16,39.72,42.11,37.01,5,Failed,True
+SUP-000271,2022,2,SUP-0139,"Harvey, Davis and Crane",Raw Materials,Germany,4114153.21,High Risk,False,58.5,55.54,54.89,59.9,6,Requires Improvement,True
+SUP-000272,2022,1,SUP-0140,Chambers and Sons,Facilities Management,USA,3998669.54,Low Risk,True,80.09,79.55,79.77,78.6,2,Conditional Approval,True
+SUP-000273,2022,2,SUP-0140,Chambers and Sons,Facilities Management,USA,3998669.54,Low Risk,True,81.17,87.19,66.42,81.68,0,Conditional Approval,False
+SUP-000274,2022,3,SUP-0140,Chambers and Sons,Facilities Management,USA,3998669.54,Low Risk,True,95.97,99.88,96.18,88.28,2,Approved,True
+SUP-000275,2022,4,SUP-0140,Chambers and Sons,Facilities Management,USA,3998669.54,Low Risk,True,88.67,82.48,85.09,87.9,0,Approved,False
+SUP-000276,2022,1,SUP-0141,Hernandez Inc,Facilities Management,Vietnam,1867364.77,Medium Risk,False,57.98,58.87,55.25,58.02,5,Requires Improvement,True
+SUP-000277,2022,2,SUP-0141,Hernandez Inc,Facilities Management,Vietnam,1867364.77,Medium Risk,False,79.77,82.8,77.26,87.08,4,Conditional Approval,True
+SUP-000278,2022,1,SUP-0142,Riggs PLC,Logistics,India,1514476.91,Medium Risk,False,60.26,56.58,60.47,59.18,4,Requires Improvement,True
+SUP-000279,2022,2,SUP-0142,Riggs PLC,Logistics,India,1514476.91,Medium Risk,False,77.34,73.04,68.66,71.09,3,Conditional Approval,True
+SUP-000280,2022,1,SUP-0143,Gibson Ltd,Raw Materials,China,4296327.55,Low Risk,False,93.99,93.36,83.56,88.53,1,Approved,True
+SUP-000281,2022,1,SUP-0144,"Lee, Horton and Snyder",Facilities Management,India,1556103.55,Medium Risk,False,64.45,63.44,56.48,56.81,4,Requires Improvement,True
+SUP-000282,2022,2,SUP-0144,"Lee, Horton and Snyder",Facilities Management,India,1556103.55,Medium Risk,False,74.1,73.41,74.31,78.78,2,Conditional Approval,True
+SUP-000283,2022,1,SUP-0145,Hernandez Ltd,Professional Services,Taiwan,3765244.49,Medium Risk,False,62.33,63.4,52.4,56.53,2,Requires Improvement,True
+SUP-000284,2022,2,SUP-0145,Hernandez Ltd,Professional Services,Taiwan,3765244.49,Medium Risk,False,72.05,69.02,73.18,70.71,3,Conditional Approval,True
+SUP-000285,2022,1,SUP-0146,Stafford Inc,Professional Services,China,4302201.37,Low Risk,False,91.04,89.31,94.56,88.94,1,Approved,True
+SUP-000286,2022,2,SUP-0146,Stafford Inc,Professional Services,China,4302201.37,Low Risk,False,81.23,75.29,80.38,78.55,1,Conditional Approval,True
+SUP-000287,2022,1,SUP-0147,Robinson-Brock,IT Services,China,3765656.8,High Risk,True,34.07,30.36,28.39,39.66,6,Failed,True
+SUP-000288,2022,2,SUP-0147,Robinson-Brock,IT Services,China,3765656.8,High Risk,True,28.76,30.42,29.08,24.89,3,Failed,True
+SUP-000289,2022,3,SUP-0147,Robinson-Brock,IT Services,China,3765656.8,High Risk,True,41.35,38.34,31.36,34.25,8,Failed,True
+SUP-000290,2022,4,SUP-0147,Robinson-Brock,IT Services,China,3765656.8,High Risk,True,42.61,39.76,43.72,42.21,6,Failed,True
+SUP-000291,2022,1,SUP-0148,"Holmes, Williams and Wright",Facilities Management,China,3300722.78,High Risk,False,29.48,31.33,27.53,32.36,8,Failed,True
+SUP-000292,2022,1,SUP-0149,Bryant Group,Raw Materials,China,1928193.22,Low Risk,False,91.25,88.04,87.0,84.8,0,Approved,False
+SUP-000293,2022,1,SUP-0150,"Schmidt, Hansen and Stewart",Raw Materials,Germany,3369810.8,Medium Risk,False,67.15,66.4,59.71,64.01,3,Conditional Approval,True
+SUP-000294,2023,1,SUP-0001,"Rodriguez, Figueroa and Sanchez",Facilities Management,India,2820150.75,High Risk,False,52.23,54.06,52.93,44.14,4,Requires Improvement,True
+SUP-000295,2023,1,SUP-0002,Doyle Ltd,Professional Services,China,2386195.61,Low Risk,True,90.51,81.89,86.2,91.24,0,Approved,False
+SUP-000296,2023,2,SUP-0002,Doyle Ltd,Professional Services,China,2386195.61,Low Risk,True,79.65,85.94,75.92,83.96,3,Conditional Approval,True
+SUP-000297,2023,3,SUP-0002,Doyle Ltd,Professional Services,China,2386195.61,Low Risk,True,93.9,89.32,88.25,88.66,0,Approved,False
+SUP-000298,2023,1,SUP-0003,"Mcclain, Miller and Henderson",Professional Services,India,1309435.92,High Risk,False,53.23,49.52,50.69,52.6,8,Requires Improvement,True
+SUP-000299,2023,2,SUP-0003,"Mcclain, Miller and Henderson",Professional Services,India,1309435.92,High Risk,False,63.02,57.52,52.78,66.93,3,Requires Improvement,True
+SUP-000300,2023,1,SUP-0004,Davis and Sons,Raw Materials,USA,4453846.45,Medium Risk,False,77.71,77.11,71.17,84.28,2,Conditional Approval,True
+SUP-000301,2023,2,SUP-0004,Davis and Sons,Raw Materials,USA,4453846.45,Medium Risk,False,70.56,72.9,56.76,62.29,4,Conditional Approval,True
+SUP-000302,2023,1,SUP-0005,"Guzman, Hoffman and Baldwin",Logistics,South Korea,4612837.62,Medium Risk,True,60.74,53.83,56.72,51.6,4,Requires Improvement,True
+SUP-000303,2023,2,SUP-0005,"Guzman, Hoffman and Baldwin",Logistics,South Korea,4612837.62,Medium Risk,True,83.8,76.24,90.23,80.63,2,Conditional Approval,True
+SUP-000304,2023,1,SUP-0006,"Gardner, Robinson and Lawrence",IT Services,China,1116465.58,Medium Risk,False,60.56,63.99,53.36,51.59,3,Requires Improvement,True
+SUP-000305,2023,1,SUP-0007,Blake and Sons,Components,China,592914.11,Medium Risk,True,72.54,73.01,60.53,73.26,1,Conditional Approval,True
+SUP-000306,2023,2,SUP-0007,Blake and Sons,Components,China,592914.11,Medium Risk,True,64.12,63.07,64.14,62.83,4,Requires Improvement,True
+SUP-000307,2023,3,SUP-0007,Blake and Sons,Components,China,592914.11,Medium Risk,True,77.4,76.05,79.57,82.72,4,Conditional Approval,True
+SUP-000308,2023,1,SUP-0008,"Henderson, Ramirez and Lewis",Facilities Management,Taiwan,1247842.57,Medium Risk,True,66.87,62.75,53.66,59.62,2,Conditional Approval,True
+SUP-000309,2023,2,SUP-0008,"Henderson, Ramirez and Lewis",Facilities Management,Taiwan,1247842.57,Medium Risk,True,56.46,56.63,62.16,53.76,6,Requires Improvement,True
+SUP-000310,2023,1,SUP-0009,Garcia-James,IT Services,India,1252681.84,Low Risk,False,94.91,97.02,79.17,82.59,2,Approved,True
+SUP-000311,2023,2,SUP-0009,Garcia-James,IT Services,India,1252681.84,Low Risk,False,95.0,90.27,80.54,92.71,0,Approved,False
+SUP-000312,2023,1,SUP-0010,Abbott-Munoz,Professional Services,USA,3259829.29,Medium Risk,False,74.06,71.3,76.02,73.49,1,Conditional Approval,True
+SUP-000313,2023,1,SUP-0011,Blair PLC,Components,China,1926972.96,Low Risk,True,91.33,87.67,88.15,88.74,2,Approved,True
+SUP-000314,2023,2,SUP-0011,Blair PLC,Components,China,1926972.96,Low Risk,True,83.72,77.15,79.52,78.62,2,Conditional Approval,True
+SUP-000315,2023,3,SUP-0011,Blair PLC,Components,China,1926972.96,Low Risk,True,86.43,78.3,84.21,78.68,0,Approved,False
+SUP-000316,2023,1,SUP-0012,Dudley Group,Components,China,2075890.25,Low Risk,True,79.75,82.88,79.26,78.58,3,Conditional Approval,True
+SUP-000317,2023,2,SUP-0012,Dudley Group,Components,China,2075890.25,Low Risk,True,88.01,91.05,86.77,92.3,0,Approved,False
+SUP-000318,2023,1,SUP-0013,Arnold Ltd,Facilities Management,China,4043467.89,Medium Risk,False,79.1,79.41,77.18,72.57,4,Conditional Approval,True
+SUP-000319,2023,2,SUP-0013,Arnold Ltd,Facilities Management,China,4043467.89,Medium Risk,False,76.06,79.99,66.39,77.3,3,Conditional Approval,True
+SUP-000320,2023,1,SUP-0014,"Mcclure, Ward and Lee",Packaging,Vietnam,2728496.22,Low Risk,True,87.13,90.64,81.74,83.06,0,Approved,False
+SUP-000321,2023,2,SUP-0014,"Mcclure, Ward and Lee",Packaging,Vietnam,2728496.22,Low Risk,True,85.94,80.2,75.76,78.17,1,Approved,True
+SUP-000322,2023,3,SUP-0014,"Mcclure, Ward and Lee",Packaging,Vietnam,2728496.22,Low Risk,True,77.75,79.4,77.33,75.61,3,Conditional Approval,True
+SUP-000323,2023,4,SUP-0014,"Mcclure, Ward and Lee",Packaging,Vietnam,2728496.22,Low Risk,True,86.98,85.49,78.68,81.09,2,Approved,True
+SUP-000324,2023,1,SUP-0015,Williams and Sons,Raw Materials,India,4138475.4,High Risk,False,48.26,45.4,44.9,46.62,4,Failed,True
+SUP-000325,2023,1,SUP-0016,Galloway-Wyatt,Professional Services,USA,556217.87,Medium Risk,False,72.21,61.09,61.17,73.65,3,Conditional Approval,True
+SUP-000326,2023,2,SUP-0016,Galloway-Wyatt,Professional Services,USA,556217.87,Medium Risk,False,70.81,66.86,66.16,62.0,4,Conditional Approval,True
+SUP-000327,2023,1,SUP-0017,James Group,Raw Materials,China,2122124.28,Low Risk,False,,70.86,69.65,71.37,1,Conditional Approval,True
+SUP-000328,2023,2,SUP-0017,James Group,Raw Materials,China,2122124.28,Low Risk,False,,81.56,85.02,91.87,0,Approved,False
+SUP-000329,2023,1,SUP-0018,"Flowers, Martin and Kelly",Professional Services,India,4689048.93,High Risk,False,42.06,43.76,46.39,43.37,6,Failed,True
+SUP-000330,2023,2,SUP-0018,"Flowers, Martin and Kelly",Professional Services,India,4689048.93,High Risk,False,36.05,34.72,36.41,35.8,8,Failed,True
+SUP-000331,2023,1,SUP-0019,"Adams, Zuniga and Wong",Facilities Management,Taiwan,273255.23,Medium Risk,False,76.6,76.17,76.57,75.47,1,Conditional Approval,True
+SUP-000332,2023,2,SUP-0019,"Adams, Zuniga and Wong",Facilities Management,Taiwan,273255.23,Medium Risk,False,,72.91,56.35,67.12,1,Conditional Approval,True
+SUP-000333,2023,1,SUP-0020,"Reid, Ferguson and Sanchez",Components,Mexico,4942828.13,Low Risk,False,99.32,88.55,94.85,100.0,1,Approved,True
+SUP-000334,2023,2,SUP-0020,"Reid, Ferguson and Sanchez",Components,Mexico,4942828.13,Low Risk,False,93.87,88.98,82.53,98.64,0,Approved,False
+SUP-000335,2023,1,SUP-0021,Gray-Mayo,Raw Materials,Vietnam,3358554.15,Low Risk,True,,79.89,79.03,80.25,1,Conditional Approval,True
+SUP-000336,2023,2,SUP-0021,Gray-Mayo,Raw Materials,Vietnam,3358554.15,Low Risk,True,81.35,81.99,76.03,80.62,0,Conditional Approval,False
+SUP-000337,2023,3,SUP-0021,Gray-Mayo,Raw Materials,Vietnam,3358554.15,Low Risk,True,94.1,96.96,84.81,88.01,2,Approved,True
+SUP-000338,2023,4,SUP-0021,Gray-Mayo,Raw Materials,Vietnam,3358554.15,Low Risk,True,96.88,90.21,96.09,93.49,2,Approved,True
+SUP-000339,2023,1,SUP-0022,"Watts, Robinson and Nguyen",Professional Services,China,4321179.71,High Risk,True,60.46,62.51,47.79,63.14,1,Requires Improvement,True
+SUP-000340,2023,2,SUP-0022,"Watts, Robinson and Nguyen",Professional Services,China,4321179.71,High Risk,True,39.6,41.47,33.4,38.6,5,Failed,True
+SUP-000341,2023,1,SUP-0023,Perez Inc,Packaging,USA,852904.65,Medium Risk,False,70.17,65.44,64.22,72.46,2,Conditional Approval,True
+SUP-000342,2023,1,SUP-0024,Morales-Jones,Components,India,3700060.91,Medium Risk,False,88.26,87.11,77.09,79.31,0,Approved,False
+SUP-000343,2023,2,SUP-0024,Morales-Jones,Components,India,3700060.91,Medium Risk,False,70.18,65.79,72.04,65.74,2,Conditional Approval,True
+SUP-000344,2023,1,SUP-0025,"Walter, Edwards and Rios",Energy,South Korea,4647997.19,Low Risk,False,83.38,78.98,82.5,83.01,0,Conditional Approval,False
+SUP-000345,2023,1,SUP-0026,Wilkerson-Day,IT Services,China,2091162.22,Medium Risk,True,61.51,64.65,69.63,60.65,1,Requires Improvement,True
+SUP-000346,2023,2,SUP-0026,Wilkerson-Day,IT Services,China,2091162.22,Medium Risk,True,88.0,82.62,84.01,77.29,0,Approved,False
+SUP-000347,2023,1,SUP-0027,Baker and Sons,Energy,India,3180701.41,High Risk,False,66.53,69.63,67.09,59.48,1,Conditional Approval,True
+SUP-000348,2023,1,SUP-0028,"Hoffman, Baker and Richards",IT Services,Other,2326932.34,Medium Risk,False,75.02,77.05,78.42,68.56,2,Conditional Approval,True
+SUP-000349,2023,1,SUP-0029,"Ross, Robinson and Bright",Packaging,Brazil,2570067.79,Medium Risk,False,66.92,63.69,63.78,60.68,4,Conditional Approval,True
+SUP-000350,2023,2,SUP-0029,"Ross, Robinson and Bright",Packaging,Brazil,2570067.79,Medium Risk,False,75.81,79.89,72.37,73.35,4,Conditional Approval,True
+SUP-000351,2023,1,SUP-0030,"Snyder, Campos and Callahan",Energy,Germany,2953574.7,Low Risk,False,,90.79,88.06,86.54,1,Approved,True
+SUP-000352,2023,1,SUP-0031,Burton Ltd,Packaging,Germany,137009.27,Medium Risk,False,77.82,77.83,71.06,73.48,2,Conditional Approval,True
+SUP-000353,2023,2,SUP-0031,Burton Ltd,Packaging,Germany,137009.27,Medium Risk,False,73.32,73.84,79.16,65.4,4,Conditional Approval,True
+SUP-000354,2023,1,SUP-0032,Carlson-Cruz,Facilities Management,Mexico,1137338.08,Medium Risk,False,52.19,45.98,45.6,47.0,8,Requires Improvement,True
+SUP-000355,2023,1,SUP-0033,"Ferrell, Rice and Maddox",Energy,USA,156378.41,Low Risk,False,82.22,81.56,71.78,77.85,1,Conditional Approval,True
+SUP-000356,2023,1,SUP-0034,Frazier Inc,Energy,South Korea,3424329.91,Medium Risk,True,70.65,74.73,58.03,61.22,4,Conditional Approval,True
+SUP-000357,2023,2,SUP-0034,Frazier Inc,Energy,South Korea,3424329.91,Medium Risk,True,78.32,78.7,80.28,69.99,4,Conditional Approval,True
+SUP-000358,2023,1,SUP-0035,"Dyer, Potter and Mack",Components,China,1492310.87,Low Risk,False,88.23,83.94,81.7,79.54,1,Approved,True
+SUP-000359,2023,2,SUP-0035,"Dyer, Potter and Mack",Components,China,1492310.87,Low Risk,False,74.12,71.88,70.78,75.97,4,Conditional Approval,True
+SUP-000360,2023,1,SUP-0036,Rodriguez-Graham,Components,USA,3594751.62,Low Risk,False,85.32,88.58,88.65,76.31,0,Approved,False
+SUP-000361,2023,1,SUP-0037,Smith-Bowen,IT Services,USA,3142843.5,Medium Risk,False,77.14,68.82,72.17,69.7,2,Conditional Approval,True
+SUP-000362,2023,2,SUP-0037,Smith-Bowen,IT Services,USA,3142843.5,Medium Risk,False,68.21,63.69,69.77,60.78,3,Conditional Approval,True
+SUP-000363,2023,1,SUP-0038,"Baker, Mason and White",Raw Materials,India,4331901.01,Medium Risk,False,60.41,59.0,62.51,62.68,1,Requires Improvement,True
+SUP-000364,2023,2,SUP-0038,"Baker, Mason and White",Raw Materials,India,4331901.01,Medium Risk,False,76.05,73.47,80.39,67.48,3,Conditional Approval,True
+SUP-000365,2023,1,SUP-0039,Harrell LLC,Logistics,USA,1075555.67,Low Risk,True,83.88,86.58,72.95,86.86,2,Conditional Approval,True
+SUP-000366,2023,2,SUP-0039,Harrell LLC,Logistics,USA,1075555.67,Low Risk,True,74.41,71.65,75.29,68.88,3,Conditional Approval,True
+SUP-000367,2023,3,SUP-0039,Harrell LLC,Logistics,USA,1075555.67,Low Risk,True,88.27,81.95,84.91,83.59,1,Approved,True
+SUP-000368,2023,4,SUP-0039,Harrell LLC,Logistics,USA,1075555.67,Low Risk,True,84.96,88.68,79.17,81.1,0,Conditional Approval,False
+SUP-000369,2023,1,SUP-0040,"Romero, Gonzalez and Brooks",Components,India,91391.97,Medium Risk,True,74.38,73.89,66.81,63.44,1,Conditional Approval,True
+SUP-000370,2023,2,SUP-0040,"Romero, Gonzalez and Brooks",Components,India,91391.97,Medium Risk,True,65.02,60.09,59.03,67.85,1,Conditional Approval,True
+SUP-000371,2023,3,SUP-0040,"Romero, Gonzalez and Brooks",Components,India,91391.97,Medium Risk,True,77.06,75.49,75.97,74.92,1,Conditional Approval,True
+SUP-000372,2023,1,SUP-0041,Ryan PLC,Professional Services,China,2357221.53,Medium Risk,False,65.06,64.27,67.4,62.08,2,Conditional Approval,True
+SUP-000373,2023,2,SUP-0041,Ryan PLC,Professional Services,China,2357221.53,Medium Risk,False,57.47,54.47,51.12,62.33,8,Requires Improvement,True
+SUP-000374,2023,1,SUP-0042,George Group,Components,China,958105.29,Medium Risk,True,72.67,67.27,77.05,65.21,1,Conditional Approval,True
+SUP-000375,2023,2,SUP-0042,George Group,Components,China,958105.29,Medium Risk,True,79.76,78.74,73.03,86.4,4,Conditional Approval,True
+SUP-000376,2023,1,SUP-0043,Rodriguez LLC,Professional Services,China,4236892.83,Low Risk,True,,89.23,95.29,92.93,2,Approved,True
+SUP-000377,2023,2,SUP-0043,Rodriguez LLC,Professional Services,China,4236892.83,Low Risk,True,79.57,75.3,83.83,81.38,4,Conditional Approval,True
+SUP-000378,2023,3,SUP-0043,Rodriguez LLC,Professional Services,China,4236892.83,Low Risk,True,92.74,85.56,85.92,88.51,0,Approved,False
+SUP-000379,2023,4,SUP-0043,Rodriguez LLC,Professional Services,China,4236892.83,Low Risk,True,78.26,69.47,76.21,81.02,2,Conditional Approval,True
+SUP-000380,2023,1,SUP-0044,Allen-Allen,Components,India,1561132.34,Medium Risk,False,66.96,70.37,65.26,68.72,1,Conditional Approval,True
+SUP-000381,2023,2,SUP-0044,Allen-Allen,Components,India,1561132.34,Medium Risk,False,57.91,49.02,56.64,54.08,5,Requires Improvement,True
+SUP-000382,2023,1,SUP-0045,"Arroyo, Miller and Tucker",IT Services,China,603937.94,Low Risk,False,88.14,83.97,81.87,89.71,0,Approved,False
+SUP-000383,2023,1,SUP-0046,Spence PLC,Components,China,3424283.86,Medium Risk,True,54.6,51.94,52.45,57.42,5,Requires Improvement,True
+SUP-000384,2023,2,SUP-0046,Spence PLC,Components,China,3424283.86,Medium Risk,True,56.88,56.59,52.06,58.03,3,Requires Improvement,True
+SUP-000385,2023,1,SUP-0047,Anderson Group,Components,USA,3248023.71,Medium Risk,False,70.98,74.65,67.39,68.76,1,Conditional Approval,True
+SUP-000386,2023,1,SUP-0048,"Martin, Rose and Obrien",Facilities Management,Mexico,4100556.58,High Risk,False,48.57,47.13,49.19,44.86,6,Failed,True
+SUP-000387,2023,1,SUP-0049,Hickman Ltd,Packaging,Germany,69123.86,Low Risk,False,78.9,77.12,68.86,83.61,4,Conditional Approval,True
+SUP-000388,2023,1,SUP-0050,"Harris, Collins and Carney",Packaging,USA,2811994.26,Low Risk,False,85.39,85.89,88.53,85.85,2,Approved,True
+SUP-000389,2023,2,SUP-0050,"Harris, Collins and Carney",Packaging,USA,2811994.26,Low Risk,False,75.76,76.79,74.66,68.08,2,Conditional Approval,True
+SUP-000390,2023,1,SUP-0051,"Brooks, Lam and Hayes",IT Services,China,4976617.11,Low Risk,False,87.0,84.1,79.23,79.71,0,Approved,False
+SUP-000391,2023,2,SUP-0051,"Brooks, Lam and Hayes",IT Services,China,4976617.11,Low Risk,False,95.04,84.04,84.4,87.46,2,Approved,True
+SUP-000392,2023,1,SUP-0052,Walker LLC,Professional Services,Brazil,2321322.63,Low Risk,True,88.49,82.91,87.63,81.02,2,Approved,True
+SUP-000393,2023,2,SUP-0052,Walker LLC,Professional Services,Brazil,2321322.63,Low Risk,True,85.38,83.41,84.71,87.33,2,Approved,True
+SUP-000394,2023,3,SUP-0052,Walker LLC,Professional Services,Brazil,2321322.63,Low Risk,True,92.75,87.41,90.04,97.11,0,Approved,False
+SUP-000395,2023,4,SUP-0052,Walker LLC,Professional Services,Brazil,2321322.63,Low Risk,True,82.81,86.6,84.18,79.95,0,Conditional Approval,False
+SUP-000396,2023,1,SUP-0053,Chapman and Sons,IT Services,Brazil,3656564.78,Medium Risk,False,66.99,72.97,54.83,65.18,4,Conditional Approval,True
+SUP-000397,2023,2,SUP-0053,Chapman and Sons,IT Services,Brazil,3656564.78,Medium Risk,False,59.05,63.82,49.49,57.61,3,Requires Improvement,True
+SUP-000398,2023,1,SUP-0054,"Robinson, Jones and Welch",Logistics,China,1411618.31,Medium Risk,False,71.41,68.66,65.6,66.99,2,Conditional Approval,True
+SUP-000399,2023,1,SUP-0055,Jones Inc,Professional Services,USA,3698747.67,Medium Risk,False,66.82,62.86,70.27,67.21,3,Conditional Approval,True
+SUP-000400,2023,1,SUP-0056,Jones-Young,IT Services,Germany,4764055.44,Medium Risk,False,76.06,69.36,73.17,70.98,2,Conditional Approval,True
+SUP-000401,2023,1,SUP-0057,"Washington, Ryan and Cummings",IT Services,India,4400450.23,Low Risk,False,72.64,72.57,76.2,69.43,4,Conditional Approval,True
+SUP-000402,2023,1,SUP-0058,"Johnston, Sanchez and Kennedy",Logistics,South Korea,291076.24,Medium Risk,False,84.12,83.71,81.16,75.4,2,Conditional Approval,True
+SUP-000403,2023,1,SUP-0059,Lee-Davis,Packaging,India,947689.36,Low Risk,False,80.71,76.51,76.93,81.11,1,Conditional Approval,True
+SUP-000404,2023,2,SUP-0059,Lee-Davis,Packaging,India,947689.36,Low Risk,False,98.54,96.43,93.28,91.93,0,Approved,False
+SUP-000405,2023,1,SUP-0060,Gomez-Jenkins,Packaging,Germany,2863966.89,Medium Risk,False,67.77,63.23,68.13,61.98,2,Conditional Approval,True
+SUP-000406,2023,1,SUP-0061,"Brown, Valdez and Lucas",Components,Vietnam,3434486.64,Medium Risk,False,60.06,64.29,52.8,55.69,1,Requires Improvement,True
+SUP-000407,2023,2,SUP-0061,"Brown, Valdez and Lucas",Components,Vietnam,3434486.64,Medium Risk,False,87.02,80.89,90.41,76.3,0,Approved,False
+SUP-000408,2023,1,SUP-0062,Powell LLC,Packaging,Brazil,3896130.98,Low Risk,False,78.43,71.66,80.35,82.64,3,Conditional Approval,True
+SUP-000409,2023,1,SUP-0063,Wright and Sons,IT Services,Germany,2631277.38,Medium Risk,True,64.79,61.22,62.31,59.74,3,Requires Improvement,True
+SUP-000410,2023,2,SUP-0063,Wright and Sons,IT Services,Germany,2631277.38,Medium Risk,True,79.09,76.44,69.13,78.98,4,Conditional Approval,True
+SUP-000411,2023,3,SUP-0063,Wright and Sons,IT Services,Germany,2631277.38,Medium Risk,True,58.48,62.97,56.49,53.11,8,Requires Improvement,True
+SUP-000412,2023,4,SUP-0063,Wright and Sons,IT Services,Germany,2631277.38,Medium Risk,True,80.06,84.22,81.49,77.0,0,Conditional Approval,False
+SUP-000413,2023,1,SUP-0064,"West, Henderson and Ramirez",Packaging,USA,1455566.93,Low Risk,False,83.21,85.76,77.59,84.94,0,Conditional Approval,False
+SUP-000414,2023,2,SUP-0064,"West, Henderson and Ramirez",Packaging,USA,1455566.93,Low Risk,False,79.47,78.12,68.85,86.5,4,Conditional Approval,True
+SUP-000415,2023,1,SUP-0065,Baxter Inc,Raw Materials,India,2134268.96,Medium Risk,False,70.04,67.18,61.14,59.7,1,Conditional Approval,True
+SUP-000416,2023,1,SUP-0066,Morton-Chase,Professional Services,Mexico,1417959.84,Medium Risk,True,60.88,64.14,52.81,57.44,4,Requires Improvement,True
+SUP-000417,2023,2,SUP-0066,Morton-Chase,Professional Services,Mexico,1417959.84,Medium Risk,True,85.55,89.44,86.53,90.43,2,Approved,True
+SUP-000418,2023,1,SUP-0067,Williams PLC,Energy,Germany,4307026.14,Low Risk,False,90.3,82.23,90.86,92.58,2,Approved,True
+SUP-000419,2023,2,SUP-0067,Williams PLC,Energy,Germany,4307026.14,Low Risk,False,79.81,86.81,81.93,82.1,1,Conditional Approval,True
+SUP-000420,2023,1,SUP-0068,Novak and Sons,Raw Materials,Taiwan,216617.12,Low Risk,False,95.22,99.48,86.24,90.24,1,Approved,True
+SUP-000421,2023,2,SUP-0068,Novak and Sons,Raw Materials,Taiwan,216617.12,Low Risk,False,81.59,78.33,72.15,82.77,1,Conditional Approval,True
+SUP-000422,2023,1,SUP-0069,Russell Group,Packaging,Taiwan,1173406.62,Low Risk,False,92.39,99.16,93.45,97.24,0,Approved,False
+SUP-000423,2023,1,SUP-0070,Hancock Inc,Professional Services,Germany,4232483.74,Low Risk,False,95.61,96.01,91.0,94.02,0,Approved,False
+SUP-000424,2023,2,SUP-0070,Hancock Inc,Professional Services,Germany,4232483.74,Low Risk,False,89.1,89.46,89.69,84.65,1,Approved,True
+SUP-000425,2023,1,SUP-0071,Gray Group,Logistics,Brazil,1538585.98,High Risk,False,61.92,59.61,55.04,57.31,4,Requires Improvement,True
+SUP-000426,2023,2,SUP-0071,Gray Group,Logistics,Brazil,1538585.98,High Risk,False,42.37,41.91,34.94,39.27,7,Failed,True
+SUP-000427,2023,1,SUP-0072,House-Glover,Facilities Management,Germany,1134306.31,High Risk,False,44.88,40.94,37.0,43.25,5,Failed,True
+SUP-000428,2023,1,SUP-0073,Henderson-Bernard,Professional Services,India,3171807.5,Medium Risk,True,54.11,51.45,56.76,52.49,7,Requires Improvement,True
+SUP-000429,2023,2,SUP-0073,Henderson-Bernard,Professional Services,India,3171807.5,Medium Risk,True,79.49,78.12,69.3,75.08,3,Conditional Approval,True
+SUP-000430,2023,3,SUP-0073,Henderson-Bernard,Professional Services,India,3171807.5,Medium Risk,True,64.97,60.36,51.69,64.4,4,Requires Improvement,True
+SUP-000431,2023,1,SUP-0074,"Stanley, Tucker and Lee",Raw Materials,Germany,628104.72,Low Risk,False,95.72,90.25,89.39,97.54,1,Approved,True
+SUP-000432,2023,2,SUP-0074,"Stanley, Tucker and Lee",Raw Materials,Germany,628104.72,Low Risk,False,80.59,83.34,76.98,79.58,0,Conditional Approval,False
+SUP-000433,2023,1,SUP-0075,Novak PLC,IT Services,China,55596.81,High Risk,False,40.17,38.71,37.62,34.78,6,Failed,True
+SUP-000434,2023,2,SUP-0075,Novak PLC,IT Services,China,55596.81,High Risk,False,49.47,49.5,48.34,45.1,3,Failed,True
+SUP-000435,2023,1,SUP-0076,"Daniels, Adkins and Brown",Components,China,2601946.22,Low Risk,False,89.92,84.32,88.22,87.92,1,Approved,True
+SUP-000436,2023,1,SUP-0077,"Woods, Calhoun and Schmidt",IT Services,China,2807089.08,Low Risk,False,82.64,78.71,80.28,73.43,1,Conditional Approval,True
+SUP-000437,2023,1,SUP-0078,Yu Inc,Facilities Management,Mexico,1331768.39,High Risk,False,43.54,39.63,37.04,39.06,4,Failed,True
+SUP-000438,2023,1,SUP-0079,Jones Inc,Packaging,India,1100229.88,Low Risk,False,76.69,78.3,65.33,67.92,4,Conditional Approval,True
+SUP-000439,2023,2,SUP-0079,Jones Inc,Packaging,India,1100229.88,Low Risk,False,80.11,75.34,80.29,81.44,2,Conditional Approval,True
+SUP-000440,2023,1,SUP-0080,"Hensley, Powell and David",Professional Services,Germany,3754673.06,Medium Risk,True,73.51,68.99,65.98,73.91,1,Conditional Approval,True
+SUP-000441,2023,2,SUP-0080,"Hensley, Powell and David",Professional Services,Germany,3754673.06,Medium Risk,True,65.82,61.11,67.55,58.18,1,Conditional Approval,True
+SUP-000442,2023,3,SUP-0080,"Hensley, Powell and David",Professional Services,Germany,3754673.06,Medium Risk,True,55.44,50.36,45.92,59.33,3,Requires Improvement,True
+SUP-000443,2023,4,SUP-0080,"Hensley, Powell and David",Professional Services,Germany,3754673.06,Medium Risk,True,75.68,70.43,74.96,72.26,4,Conditional Approval,True
+SUP-000444,2023,1,SUP-0081,"Sanchez, Wheeler and Harvey",IT Services,China,1641706.45,Low Risk,True,85.73,85.71,92.64,84.28,0,Approved,False
+SUP-000445,2023,2,SUP-0081,"Sanchez, Wheeler and Harvey",IT Services,China,1641706.45,Low Risk,True,90.75,92.64,79.35,91.98,2,Approved,True
+SUP-000446,2023,1,SUP-0082,Sandoval-Cunningham,Energy,China,1708292.5,Medium Risk,False,58.17,56.5,59.95,56.11,4,Requires Improvement,True
+SUP-000447,2023,1,SUP-0083,Donovan-Harris,Packaging,China,4094516.73,Low Risk,True,81.73,82.71,83.98,76.12,0,Conditional Approval,False
+SUP-000448,2023,2,SUP-0083,Donovan-Harris,Packaging,China,4094516.73,Low Risk,True,93.58,91.17,89.08,86.97,0,Approved,False
+SUP-000449,2023,1,SUP-0084,"Edwards, Baker and Anderson",Packaging,China,990226.97,Low Risk,True,81.87,76.87,80.01,76.95,2,Conditional Approval,True
+SUP-000450,2023,2,SUP-0084,"Edwards, Baker and Anderson",Packaging,China,990226.97,Low Risk,True,,77.41,66.14,71.73,2,Conditional Approval,True
+SUP-000451,2023,3,SUP-0084,"Edwards, Baker and Anderson",Packaging,China,990226.97,Low Risk,True,90.54,94.12,82.33,84.52,1,Approved,True
+SUP-000452,2023,1,SUP-0085,"Evans, Stewart and Walton",Facilities Management,USA,2914456.69,Low Risk,False,85.76,86.72,78.51,82.4,2,Approved,True
+SUP-000453,2023,1,SUP-0086,Smith PLC,IT Services,China,3118586.93,Low Risk,False,91.67,82.31,92.61,91.44,0,Approved,False
+SUP-000454,2023,1,SUP-0087,"Ferrell, Jones and Lewis",Raw Materials,Mexico,3085129.37,Low Risk,True,98.74,91.61,92.48,99.03,0,Approved,False
+SUP-000455,2023,2,SUP-0087,"Ferrell, Jones and Lewis",Raw Materials,Mexico,3085129.37,Low Risk,True,78.75,71.22,61.73,74.5,2,Conditional Approval,True
+SUP-000456,2023,3,SUP-0087,"Ferrell, Jones and Lewis",Raw Materials,Mexico,3085129.37,Low Risk,True,87.69,83.67,79.71,90.68,2,Approved,True
+SUP-000457,2023,1,SUP-0088,Anderson-Bailey,Components,India,1902223.55,High Risk,False,44.58,42.44,34.32,38.69,6,Failed,True
+SUP-000458,2023,1,SUP-0089,Suarez LLC,IT Services,Vietnam,4806000.18,Medium Risk,False,76.35,70.17,70.24,71.93,2,Conditional Approval,True
+SUP-000459,2023,1,SUP-0090,Moore-Bass,Energy,Vietnam,2582691.61,Medium Risk,False,63.59,58.41,56.37,68.73,1,Requires Improvement,True
+SUP-000460,2023,1,SUP-0091,"Turner, Riggs and Roman",Professional Services,USA,281407.14,Medium Risk,True,56.92,59.16,47.28,56.33,5,Requires Improvement,True
+SUP-000461,2023,2,SUP-0091,"Turner, Riggs and Roman",Professional Services,USA,281407.14,Medium Risk,True,66.82,65.79,67.47,60.97,3,Conditional Approval,True
+SUP-000462,2023,3,SUP-0091,"Turner, Riggs and Roman",Professional Services,USA,281407.14,Medium Risk,True,66.43,61.33,59.83,62.02,1,Conditional Approval,True
+SUP-000463,2023,1,SUP-0092,"Smith, Montoya and Evans",Packaging,USA,1665288.45,Medium Risk,False,76.93,78.8,74.59,77.34,2,Conditional Approval,True
+SUP-000464,2023,1,SUP-0093,"Garcia, Humphrey and Baker",Components,China,4529434.11,Low Risk,True,93.79,88.0,87.18,87.0,1,Approved,True
+SUP-000465,2023,2,SUP-0093,"Garcia, Humphrey and Baker",Components,China,4529434.11,Low Risk,True,82.11,76.69,70.57,80.71,0,Conditional Approval,False
+SUP-000466,2023,3,SUP-0093,"Garcia, Humphrey and Baker",Components,China,4529434.11,Low Risk,True,75.94,68.28,69.8,79.1,1,Conditional Approval,True
+SUP-000467,2023,4,SUP-0093,"Garcia, Humphrey and Baker",Components,China,4529434.11,Low Risk,True,93.56,87.93,79.83,89.19,0,Approved,False
+SUP-000468,2023,1,SUP-0094,Newton and Sons,Packaging,China,3970835.46,Low Risk,False,,90.59,88.91,81.36,0,Approved,False
+SUP-000469,2023,1,SUP-0095,Campbell-Clark,Energy,Germany,570497.8,Medium Risk,False,70.52,66.77,64.51,73.61,1,Conditional Approval,True
+SUP-000470,2023,1,SUP-0096,Harris-Walters,Professional Services,Germany,454362.0,High Risk,False,63.24,56.47,66.0,59.6,3,Requires Improvement,True
+SUP-000471,2023,1,SUP-0097,Wagner-King,Components,South Korea,1413737.63,Medium Risk,False,65.64,63.47,59.09,69.31,4,Conditional Approval,True
+SUP-000472,2023,1,SUP-0098,Davis Group,Packaging,Taiwan,1281446.46,Medium Risk,True,73.88,69.26,72.84,76.59,2,Conditional Approval,True
+SUP-000473,2023,2,SUP-0098,Davis Group,Packaging,Taiwan,1281446.46,Medium Risk,True,80.93,79.68,75.62,77.05,0,Conditional Approval,False
+SUP-000474,2023,3,SUP-0098,Davis Group,Packaging,Taiwan,1281446.46,Medium Risk,True,72.67,70.83,68.32,71.23,1,Conditional Approval,True
+SUP-000475,2023,4,SUP-0098,Davis Group,Packaging,Taiwan,1281446.46,Medium Risk,True,66.18,64.69,64.97,61.55,4,Conditional Approval,True
+SUP-000476,2023,1,SUP-0099,Williams-Cook,Facilities Management,Brazil,3573436.36,High Risk,True,65.74,60.73,58.23,62.45,4,Conditional Approval,True
+SUP-000477,2023,2,SUP-0099,Williams-Cook,Facilities Management,Brazil,3573436.36,High Risk,True,49.95,50.98,52.59,49.52,6,Failed,True
+SUP-000478,2023,1,SUP-0100,Walsh LLC,IT Services,Mexico,2983311.06,Low Risk,False,88.04,85.28,79.34,76.93,2,Approved,True
+SUP-000479,2023,2,SUP-0100,Walsh LLC,IT Services,Mexico,2983311.06,Low Risk,False,93.45,87.32,84.71,90.02,2,Approved,True
+SUP-000480,2023,1,SUP-0101,Figueroa PLC,Energy,China,3661347.34,Medium Risk,True,74.57,76.76,62.79,68.63,3,Conditional Approval,True
+SUP-000481,2023,2,SUP-0101,Figueroa PLC,Energy,China,3661347.34,Medium Risk,True,57.26,53.64,46.9,56.23,5,Requires Improvement,True
+SUP-000482,2023,3,SUP-0101,Figueroa PLC,Energy,China,3661347.34,Medium Risk,True,59.84,53.63,60.2,55.8,6,Requires Improvement,True
+SUP-000483,2023,4,SUP-0101,Figueroa PLC,Energy,China,3661347.34,Medium Risk,True,73.95,76.3,76.95,66.14,1,Conditional Approval,True
+SUP-000484,2023,1,SUP-0102,"Patterson, Smith and Jones",Components,Germany,3296206.1,High Risk,True,45.26,45.84,42.61,45.55,8,Failed,True
+SUP-000485,2023,2,SUP-0102,"Patterson, Smith and Jones",Components,Germany,3296206.1,High Risk,True,34.71,32.25,32.26,29.5,7,Failed,True
+SUP-000486,2023,3,SUP-0102,"Patterson, Smith and Jones",Components,Germany,3296206.1,High Risk,True,62.68,63.36,49.72,56.99,1,Requires Improvement,True
+SUP-000487,2023,4,SUP-0102,"Patterson, Smith and Jones",Components,Germany,3296206.1,High Risk,True,37.8,33.45,35.81,41.86,3,Failed,True
+SUP-000488,2023,1,SUP-0103,"Mckee, Gardner and Davenport",Professional Services,Other,3910618.11,High Risk,False,61.56,53.41,63.24,59.94,4,Requires Improvement,True
+SUP-000489,2023,1,SUP-0104,"Tran, Jordan and Williams",Professional Services,China,2103261.52,High Risk,False,51.95,51.73,52.21,50.36,6,Requires Improvement,True
+SUP-000490,2023,1,SUP-0105,Nolan-Flynn,IT Services,Vietnam,3427031.74,Low Risk,True,93.24,86.52,80.61,92.73,0,Approved,False
+SUP-000491,2023,2,SUP-0105,Nolan-Flynn,IT Services,Vietnam,3427031.74,Low Risk,True,94.99,83.21,86.51,85.72,1,Approved,True
+SUP-000492,2023,1,SUP-0106,Nolan and Sons,Facilities Management,Brazil,2402859.62,Low Risk,False,79.92,70.63,79.54,75.94,1,Conditional Approval,True
+SUP-000493,2023,1,SUP-0107,"Wright, Garcia and Deleon",Packaging,Taiwan,1570852.73,Low Risk,False,83.92,83.09,70.06,81.78,0,Conditional Approval,False
+SUP-000494,2023,1,SUP-0108,Dickson-Brady,Facilities Management,South Korea,3480469.93,Low Risk,True,93.19,84.12,86.39,86.96,1,Approved,True
+SUP-000495,2023,2,SUP-0108,Dickson-Brady,Facilities Management,South Korea,3480469.93,Low Risk,True,98.61,100.0,91.67,96.24,1,Approved,True
+SUP-000496,2023,3,SUP-0108,Dickson-Brady,Facilities Management,South Korea,3480469.93,Low Risk,True,89.29,88.13,88.68,79.88,2,Approved,True
+SUP-000497,2023,4,SUP-0108,Dickson-Brady,Facilities Management,South Korea,3480469.93,Low Risk,True,82.47,79.5,82.6,82.71,2,Conditional Approval,True
+SUP-000498,2023,1,SUP-0109,Hancock and Sons,Logistics,Germany,3491103.38,Medium Risk,False,73.38,68.81,70.39,70.62,1,Conditional Approval,True
+SUP-000499,2023,1,SUP-0110,Johnson-Doyle,Components,Vietnam,4368294.73,Medium Risk,False,61.36,58.76,62.39,55.85,2,Requires Improvement,True
+SUP-000500,2023,2,SUP-0110,Johnson-Doyle,Components,Vietnam,4368294.73,Medium Risk,False,63.4,57.3,59.52,60.16,4,Requires Improvement,True
+SUP-000501,2023,1,SUP-0111,Patton-Jenkins,Energy,China,1586604.47,High Risk,True,33.26,32.46,33.4,35.64,3,Failed,True
+SUP-000502,2023,2,SUP-0111,Patton-Jenkins,Energy,China,1586604.47,High Risk,True,61.84,63.18,57.22,57.51,1,Requires Improvement,True
+SUP-000503,2023,3,SUP-0111,Patton-Jenkins,Energy,China,1586604.47,High Risk,True,40.82,42.03,41.87,34.27,5,Failed,True
+SUP-000504,2023,1,SUP-0112,"Shields, Cochran and Adams",Raw Materials,Vietnam,2907025.79,High Risk,True,46.92,50.91,42.21,45.45,5,Failed,True
+SUP-000505,2023,2,SUP-0112,"Shields, Cochran and Adams",Raw Materials,Vietnam,2907025.79,High Risk,True,63.02,58.92,58.6,64.95,1,Requires Improvement,True
+SUP-000506,2023,1,SUP-0113,"Rodriguez, Brennan and Garrison",Facilities Management,China,4370536.44,Medium Risk,False,67.78,62.21,70.05,61.78,4,Conditional Approval,True
+SUP-000507,2023,1,SUP-0114,Gonzalez Group,Packaging,India,1383911.59,Low Risk,True,85.84,83.42,83.37,88.37,0,Approved,False
+SUP-000508,2023,2,SUP-0114,Gonzalez Group,Packaging,India,1383911.59,Low Risk,True,84.9,86.73,66.3,85.61,1,Conditional Approval,True
+SUP-000509,2023,3,SUP-0114,Gonzalez Group,Packaging,India,1383911.59,Low Risk,True,83.49,83.52,72.45,80.98,0,Conditional Approval,False
+SUP-000510,2023,1,SUP-0115,Torres-Pope,IT Services,Germany,3575579.47,Medium Risk,False,80.94,76.88,80.98,83.89,0,Conditional Approval,False
+SUP-000511,2023,2,SUP-0115,Torres-Pope,IT Services,Germany,3575579.47,Medium Risk,False,63.46,61.17,62.36,60.46,4,Requires Improvement,True
+SUP-000512,2023,1,SUP-0116,Walker Ltd,Professional Services,India,70687.97,High Risk,False,38.35,37.85,31.16,34.17,4,Failed,True
+SUP-000513,2023,2,SUP-0116,Walker Ltd,Professional Services,India,70687.97,High Risk,False,67.86,66.18,57.03,62.46,3,Conditional Approval,True
+SUP-000514,2023,1,SUP-0117,Ross LLC,IT Services,Germany,4777547.53,Medium Risk,False,63.9,63.5,64.51,65.41,2,Requires Improvement,True
+SUP-000515,2023,2,SUP-0117,Ross LLC,IT Services,Germany,4777547.53,Medium Risk,False,58.55,54.0,55.61,52.06,3,Requires Improvement,True
+SUP-000516,2023,1,SUP-0118,Rasmussen LLC,Logistics,China,4680399.47,Medium Risk,False,60.23,62.98,59.36,65.33,1,Requires Improvement,True
+SUP-000517,2023,2,SUP-0118,Rasmussen LLC,Logistics,China,4680399.47,Medium Risk,False,80.91,76.89,80.13,77.65,0,Conditional Approval,False
+SUP-000518,2023,1,SUP-0119,May-Ross,Raw Materials,USA,1478267.19,Low Risk,False,93.55,87.12,94.54,97.87,1,Approved,True
+SUP-000519,2023,2,SUP-0119,May-Ross,Raw Materials,USA,1478267.19,Low Risk,False,95.01,88.51,95.92,81.11,0,Approved,False
+SUP-000520,2023,1,SUP-0120,"Rivera, Johnson and Wiley",Packaging,USA,2019205.17,Low Risk,False,88.64,90.29,81.06,91.59,0,Approved,False
+SUP-000521,2023,2,SUP-0120,"Rivera, Johnson and Wiley",Packaging,USA,2019205.17,Low Risk,False,96.69,89.14,84.68,87.88,2,Approved,True
+SUP-000522,2023,1,SUP-0121,White-Estes,Professional Services,Vietnam,4675166.38,Medium Risk,True,70.56,73.52,70.83,69.46,1,Conditional Approval,True
+SUP-000523,2023,2,SUP-0121,White-Estes,Professional Services,Vietnam,4675166.38,Medium Risk,True,61.05,57.96,59.28,64.13,1,Requires Improvement,True
+SUP-000524,2023,1,SUP-0122,Johnson-Carlson,IT Services,China,376230.16,Medium Risk,False,64.59,65.07,64.1,64.59,4,Requires Improvement,True
+SUP-000525,2023,2,SUP-0122,Johnson-Carlson,IT Services,China,376230.16,Medium Risk,False,70.62,65.14,64.91,71.74,4,Conditional Approval,True
+SUP-000526,2023,1,SUP-0123,Chandler-Edwards,Facilities Management,China,920478.9,Medium Risk,False,64.35,64.12,52.91,64.43,4,Requires Improvement,True
+SUP-000527,2023,1,SUP-0124,"Joyce, Wilson and Lam",Facilities Management,Germany,4263466.78,Medium Risk,False,74.66,67.93,76.29,78.53,2,Conditional Approval,True
+SUP-000528,2023,1,SUP-0125,Scott Ltd,Energy,India,1068429.67,Medium Risk,False,77.74,80.98,72.17,72.1,1,Conditional Approval,True
+SUP-000529,2023,2,SUP-0125,Scott Ltd,Energy,India,1068429.67,Medium Risk,False,68.78,62.59,68.69,75.86,3,Conditional Approval,True
+SUP-000530,2023,1,SUP-0126,Smith-Frost,Energy,India,1472124.38,Medium Risk,False,,56.77,56.93,58.12,3,Requires Improvement,True
+SUP-000531,2023,2,SUP-0126,Smith-Frost,Energy,India,1472124.38,Medium Risk,False,60.82,55.88,51.04,60.96,2,Requires Improvement,True
+SUP-000532,2023,1,SUP-0127,"Mcdaniel, Bentley and Mclaughlin",Components,Mexico,4584648.55,Low Risk,False,84.75,89.28,71.48,77.22,0,Conditional Approval,False
+SUP-000533,2023,1,SUP-0128,Diaz Inc,Energy,China,380211.42,Medium Risk,True,60.42,57.42,51.79,60.76,1,Requires Improvement,True
+SUP-000534,2023,2,SUP-0128,Diaz Inc,Energy,China,380211.42,Medium Risk,True,65.38,61.66,53.88,67.02,2,Conditional Approval,True
+SUP-000535,2023,1,SUP-0129,"Mccall, Hanson and Alvarado",Professional Services,China,233001.77,Low Risk,True,86.97,89.2,76.79,83.8,1,Approved,True
+SUP-000536,2023,2,SUP-0129,"Mccall, Hanson and Alvarado",Professional Services,China,233001.77,Low Risk,True,82.64,78.76,72.88,82.27,0,Conditional Approval,False
+SUP-000537,2023,3,SUP-0129,"Mccall, Hanson and Alvarado",Professional Services,China,233001.77,Low Risk,True,100.0,96.56,87.83,84.79,2,Approved,True
+SUP-000538,2023,4,SUP-0129,"Mccall, Hanson and Alvarado",Professional Services,China,233001.77,Low Risk,True,91.1,87.3,80.36,84.92,0,Approved,False
+SUP-000539,2023,1,SUP-0130,Cortez LLC,Energy,USA,174474.58,Low Risk,True,90.38,90.14,98.8,86.31,1,Approved,True
+SUP-000540,2023,2,SUP-0130,Cortez LLC,Energy,USA,174474.58,Low Risk,True,99.62,98.85,100.0,89.72,2,Approved,True
+SUP-000541,2023,3,SUP-0130,Cortez LLC,Energy,USA,174474.58,Low Risk,True,90.11,89.73,83.08,93.69,0,Approved,False
+SUP-000542,2023,1,SUP-0131,"Parker, Ortiz and Powell",Logistics,USA,3862465.81,Low Risk,True,91.12,84.25,80.7,86.69,2,Approved,True
+SUP-000543,2023,2,SUP-0131,"Parker, Ortiz and Powell",Logistics,USA,3862465.81,Low Risk,True,93.03,88.93,92.47,83.83,1,Approved,True
+SUP-000544,2023,3,SUP-0131,"Parker, Ortiz and Powell",Logistics,USA,3862465.81,Low Risk,True,81.39,75.15,72.09,83.39,0,Conditional Approval,False
+SUP-000545,2023,1,SUP-0132,Spencer-Lee,Raw Materials,Mexico,123870.4,High Risk,False,39.41,35.76,36.29,34.08,7,Failed,True
+SUP-000546,2023,1,SUP-0133,"Bentley, Byrd and Orr",Professional Services,China,1972814.62,Low Risk,False,99.68,95.49,94.4,93.12,1,Approved,True
+SUP-000547,2023,2,SUP-0133,"Bentley, Byrd and Orr",Professional Services,China,1972814.62,Low Risk,False,87.99,86.55,75.59,82.9,2,Approved,True
+SUP-000548,2023,1,SUP-0134,"Carroll, Sullivan and Bass",Packaging,South Korea,873463.75,High Risk,True,64.99,69.09,59.98,65.83,1,Requires Improvement,True
+SUP-000549,2023,2,SUP-0134,"Carroll, Sullivan and Bass",Packaging,South Korea,873463.75,High Risk,True,67.71,64.89,62.33,59.61,4,Conditional Approval,True
+SUP-000550,2023,3,SUP-0134,"Carroll, Sullivan and Bass",Packaging,South Korea,873463.75,High Risk,True,53.29,49.33,48.94,52.57,4,Requires Improvement,True
+SUP-000551,2023,1,SUP-0135,Mitchell-Jordan,Packaging,USA,4601835.38,High Risk,True,33.41,35.1,33.31,35.7,5,Failed,True
+SUP-000552,2023,2,SUP-0135,Mitchell-Jordan,Packaging,USA,4601835.38,High Risk,True,33.56,35.34,28.18,32.54,8,Failed,True
+SUP-000553,2023,3,SUP-0135,Mitchell-Jordan,Packaging,USA,4601835.38,High Risk,True,68.11,68.12,70.03,71.02,1,Conditional Approval,True
+SUP-000554,2023,1,SUP-0136,"Lawson, Morris and Ramos",Packaging,China,2887709.8,Medium Risk,True,65.95,63.14,53.89,65.55,3,Conditional Approval,True
+SUP-000555,2023,2,SUP-0136,"Lawson, Morris and Ramos",Packaging,China,2887709.8,Medium Risk,True,60.71,58.05,64.2,60.7,1,Requires Improvement,True
+SUP-000556,2023,3,SUP-0136,"Lawson, Morris and Ramos",Packaging,China,2887709.8,Medium Risk,True,77.15,73.37,74.07,78.89,2,Conditional Approval,True
+SUP-000557,2023,1,SUP-0137,"Lewis, Kennedy and Santana",Components,China,3128458.17,Medium Risk,False,68.79,66.03,61.99,71.82,2,Conditional Approval,True
+SUP-000558,2023,1,SUP-0138,"Jackson, Miller and Robertson",Logistics,USA,2834536.09,Medium Risk,True,59.39,52.58,62.2,63.93,4,Requires Improvement,True
+SUP-000559,2023,2,SUP-0138,"Jackson, Miller and Robertson",Logistics,USA,2834536.09,Medium Risk,True,60.14,54.77,63.58,58.61,3,Requires Improvement,True
+SUP-000560,2023,3,SUP-0138,"Jackson, Miller and Robertson",Logistics,USA,2834536.09,Medium Risk,True,69.36,71.73,67.52,65.06,3,Conditional Approval,True
+SUP-000561,2023,4,SUP-0138,"Jackson, Miller and Robertson",Logistics,USA,2834536.09,Medium Risk,True,69.66,71.02,70.93,74.2,2,Conditional Approval,True
+SUP-000562,2023,1,SUP-0139,"Harvey, Davis and Crane",Raw Materials,Germany,4114153.21,High Risk,False,38.61,36.25,42.29,38.21,7,Failed,True
+SUP-000563,2023,2,SUP-0139,"Harvey, Davis and Crane",Raw Materials,Germany,4114153.21,High Risk,False,59.32,53.38,59.39,52.76,7,Requires Improvement,True
+SUP-000564,2023,1,SUP-0140,Chambers and Sons,Facilities Management,USA,3998669.54,Low Risk,True,90.31,87.19,94.85,88.79,2,Approved,True
+SUP-000565,2023,2,SUP-0140,Chambers and Sons,Facilities Management,USA,3998669.54,Low Risk,True,88.47,89.89,89.98,84.93,1,Approved,True
+SUP-000566,2023,3,SUP-0140,Chambers and Sons,Facilities Management,USA,3998669.54,Low Risk,True,84.83,86.36,78.08,80.84,0,Conditional Approval,False
+SUP-000567,2023,1,SUP-0141,Hernandez Inc,Facilities Management,Vietnam,1867364.77,Medium Risk,False,77.51,76.6,79.36,77.95,2,Conditional Approval,True
+SUP-000568,2023,1,SUP-0142,Riggs PLC,Logistics,India,1514476.91,Medium Risk,False,75.65,78.05,62.93,64.76,1,Conditional Approval,True
+SUP-000569,2023,2,SUP-0142,Riggs PLC,Logistics,India,1514476.91,Medium Risk,False,64.31,60.75,64.53,61.55,2,Requires Improvement,True
+SUP-000570,2023,1,SUP-0143,Gibson Ltd,Raw Materials,China,4296327.55,Low Risk,False,91.86,89.91,84.47,91.35,0,Approved,False
+SUP-000571,2023,1,SUP-0144,"Lee, Horton and Snyder",Facilities Management,India,1556103.55,Medium Risk,False,57.92,59.43,61.46,57.95,7,Requires Improvement,True
+SUP-000572,2023,2,SUP-0144,"Lee, Horton and Snyder",Facilities Management,India,1556103.55,Medium Risk,False,82.62,79.4,81.95,78.39,0,Conditional Approval,False
+SUP-000573,2023,1,SUP-0145,Hernandez Ltd,Professional Services,Taiwan,3765244.49,Medium Risk,False,60.42,64.02,58.4,58.33,4,Requires Improvement,True
+SUP-000574,2023,2,SUP-0145,Hernandez Ltd,Professional Services,Taiwan,3765244.49,Medium Risk,False,63.12,60.99,63.14,56.74,4,Requires Improvement,True
+SUP-000575,2023,1,SUP-0146,Stafford Inc,Professional Services,China,4302201.37,Low Risk,False,95.43,94.67,80.78,96.83,1,Approved,True
+SUP-000576,2023,1,SUP-0147,Robinson-Brock,IT Services,China,3765656.8,High Risk,True,60.71,54.89,53.76,58.83,3,Requires Improvement,True
+SUP-000577,2023,2,SUP-0147,Robinson-Brock,IT Services,China,3765656.8,High Risk,True,56.65,59.37,51.03,51.93,4,Requires Improvement,True
+SUP-000578,2023,3,SUP-0147,Robinson-Brock,IT Services,China,3765656.8,High Risk,True,50.2,50.84,42.81,53.51,8,Requires Improvement,True
+SUP-000579,2023,4,SUP-0147,Robinson-Brock,IT Services,China,3765656.8,High Risk,True,44.46,44.68,41.58,38.04,5,Failed,True
+SUP-000580,2023,1,SUP-0148,"Holmes, Williams and Wright",Facilities Management,China,3300722.78,High Risk,False,64.3,64.63,59.42,57.58,2,Requires Improvement,True
+SUP-000581,2023,2,SUP-0148,"Holmes, Williams and Wright",Facilities Management,China,3300722.78,High Risk,False,49.91,55.45,49.17,49.0,7,Failed,True
+SUP-000582,2023,1,SUP-0149,Bryant Group,Raw Materials,China,1928193.22,Low Risk,False,93.36,87.03,90.3,95.5,2,Approved,True
+SUP-000583,2023,1,SUP-0150,"Schmidt, Hansen and Stewart",Raw Materials,Germany,3369810.8,Medium Risk,False,69.4,68.23,73.39,71.98,1,Conditional Approval,True
+SUP-000584,2024,1,SUP-0001,"Rodriguez, Figueroa and Sanchez",Facilities Management,India,2820150.75,High Risk,False,62.68,60.6,59.92,62.45,2,Requires Improvement,True
+SUP-000585,2024,2,SUP-0001,"Rodriguez, Figueroa and Sanchez",Facilities Management,India,2820150.75,High Risk,False,65.62,62.84,71.81,62.18,4,Conditional Approval,True
+SUP-000586,2024,1,SUP-0002,Doyle Ltd,Professional Services,China,2386195.61,Low Risk,True,88.07,83.92,94.59,81.77,0,Approved,False
+SUP-000587,2024,2,SUP-0002,Doyle Ltd,Professional Services,China,2386195.61,Low Risk,True,98.68,90.25,89.57,98.94,1,Approved,True
+SUP-000588,2024,3,SUP-0002,Doyle Ltd,Professional Services,China,2386195.61,Low Risk,True,100.0,91.74,84.95,92.82,2,Approved,True
+SUP-000589,2024,4,SUP-0002,Doyle Ltd,Professional Services,China,2386195.61,Low Risk,True,88.25,91.49,70.89,90.39,2,Approved,True
+SUP-000590,2024,1,SUP-0003,"Mcclain, Miller and Henderson",Professional Services,India,1309435.92,High Risk,False,48.64,47.73,42.05,43.21,3,Failed,True
+SUP-000591,2024,2,SUP-0003,"Mcclain, Miller and Henderson",Professional Services,India,1309435.92,High Risk,False,38.19,36.12,36.89,35.2,7,Failed,True
+SUP-000592,2024,1,SUP-0004,Davis and Sons,Raw Materials,USA,4453846.45,Medium Risk,False,77.9,68.59,78.38,69.31,2,Conditional Approval,True
+SUP-000593,2024,1,SUP-0005,"Guzman, Hoffman and Baldwin",Logistics,South Korea,4612837.62,Medium Risk,True,70.41,68.78,63.62,70.37,1,Conditional Approval,True
+SUP-000594,2024,2,SUP-0005,"Guzman, Hoffman and Baldwin",Logistics,South Korea,4612837.62,Medium Risk,True,69.97,67.56,68.76,70.95,4,Conditional Approval,True
+SUP-000595,2024,1,SUP-0006,"Gardner, Robinson and Lawrence",IT Services,China,1116465.58,Medium Risk,False,68.14,61.19,63.82,63.88,3,Conditional Approval,True
+SUP-000596,2024,1,SUP-0007,Blake and Sons,Components,China,592914.11,Medium Risk,True,68.81,70.48,57.91,71.18,1,Conditional Approval,True
+SUP-000597,2024,2,SUP-0007,Blake and Sons,Components,China,592914.11,Medium Risk,True,59.2,60.07,50.38,50.08,4,Requires Improvement,True
+SUP-000598,2024,1,SUP-0008,"Henderson, Ramirez and Lewis",Facilities Management,Taiwan,1247842.57,Medium Risk,True,64.97,68.64,65.42,67.07,4,Requires Improvement,True
+SUP-000599,2024,2,SUP-0008,"Henderson, Ramirez and Lewis",Facilities Management,Taiwan,1247842.57,Medium Risk,True,72.93,74.26,74.26,66.49,2,Conditional Approval,True
+SUP-000600,2024,3,SUP-0008,"Henderson, Ramirez and Lewis",Facilities Management,Taiwan,1247842.57,Medium Risk,True,75.18,71.97,77.3,71.72,2,Conditional Approval,True
+SUP-000601,2024,4,SUP-0008,"Henderson, Ramirez and Lewis",Facilities Management,Taiwan,1247842.57,Medium Risk,True,61.69,64.04,61.55,52.99,1,Requires Improvement,True
+SUP-000602,2024,1,SUP-0009,Garcia-James,IT Services,India,1252681.84,Low Risk,False,78.82,70.03,74.63,81.37,3,Conditional Approval,True
+SUP-000603,2024,2,SUP-0009,Garcia-James,IT Services,India,1252681.84,Low Risk,False,87.94,93.53,92.02,94.74,1,Approved,True
+SUP-000604,2024,1,SUP-0010,Abbott-Munoz,Professional Services,USA,3259829.29,Medium Risk,False,85.39,90.71,87.35,87.27,0,Approved,False
+SUP-000605,2024,1,SUP-0011,Blair PLC,Components,China,1926972.96,Low Risk,True,84.23,79.58,85.92,74.92,0,Conditional Approval,False
+SUP-000606,2024,2,SUP-0011,Blair PLC,Components,China,1926972.96,Low Risk,True,88.63,83.34,81.78,86.95,1,Approved,True
+SUP-000607,2024,1,SUP-0012,Dudley Group,Components,China,2075890.25,Low Risk,True,82.07,85.63,79.89,74.71,1,Conditional Approval,True
+SUP-000608,2024,2,SUP-0012,Dudley Group,Components,China,2075890.25,Low Risk,True,85.03,80.69,75.22,79.11,0,Approved,False
+SUP-000609,2024,3,SUP-0012,Dudley Group,Components,China,2075890.25,Low Risk,True,93.96,91.57,91.81,90.63,2,Approved,True
+SUP-000610,2024,4,SUP-0012,Dudley Group,Components,China,2075890.25,Low Risk,True,81.78,77.12,73.48,80.9,0,Conditional Approval,False
+SUP-000611,2024,1,SUP-0013,Arnold Ltd,Facilities Management,China,4043467.89,Medium Risk,False,68.51,66.18,61.32,66.21,1,Conditional Approval,True
+SUP-000612,2024,1,SUP-0014,"Mcclure, Ward and Lee",Packaging,Vietnam,2728496.22,Low Risk,True,95.52,90.17,79.0,80.63,0,Approved,False
+SUP-000613,2024,2,SUP-0014,"Mcclure, Ward and Lee",Packaging,Vietnam,2728496.22,Low Risk,True,95.16,92.69,91.07,87.66,1,Approved,True
+SUP-000614,2024,1,SUP-0015,Williams and Sons,Raw Materials,India,4138475.4,High Risk,False,29.07,31.66,29.65,31.18,4,Failed,True
+SUP-000615,2024,2,SUP-0015,Williams and Sons,Raw Materials,India,4138475.4,High Risk,False,50.43,50.56,42.09,50.53,8,Requires Improvement,True
+SUP-000616,2024,1,SUP-0016,Galloway-Wyatt,Professional Services,USA,556217.87,Medium Risk,False,73.41,68.37,78.17,71.38,3,Conditional Approval,True
+SUP-000617,2024,1,SUP-0017,James Group,Raw Materials,China,2122124.28,Low Risk,False,80.48,72.93,79.91,71.52,0,Conditional Approval,False
+SUP-000618,2024,1,SUP-0018,"Flowers, Martin and Kelly",Professional Services,India,4689048.93,High Risk,False,64.33,63.66,63.16,60.45,3,Requires Improvement,True
+SUP-000619,2024,2,SUP-0018,"Flowers, Martin and Kelly",Professional Services,India,4689048.93,High Risk,False,44.69,45.28,48.63,42.58,8,Failed,True
+SUP-000620,2024,1,SUP-0019,"Adams, Zuniga and Wong",Facilities Management,Taiwan,273255.23,Medium Risk,False,68.96,66.41,65.1,62.48,4,Conditional Approval,True
+SUP-000621,2024,1,SUP-0020,"Reid, Ferguson and Sanchez",Components,Mexico,4942828.13,Low Risk,False,85.29,86.7,87.43,80.13,1,Approved,True
+SUP-000622,2024,2,SUP-0020,"Reid, Ferguson and Sanchez",Components,Mexico,4942828.13,Low Risk,False,86.78,91.43,82.7,84.03,2,Approved,True
+SUP-000623,2024,1,SUP-0021,Gray-Mayo,Raw Materials,Vietnam,3358554.15,Low Risk,True,94.41,94.55,91.18,81.41,1,Approved,True
+SUP-000624,2024,2,SUP-0021,Gray-Mayo,Raw Materials,Vietnam,3358554.15,Low Risk,True,88.03,84.79,90.06,86.99,0,Approved,False
+SUP-000625,2024,3,SUP-0021,Gray-Mayo,Raw Materials,Vietnam,3358554.15,Low Risk,True,100.0,94.3,86.61,93.48,0,Approved,False
+SUP-000626,2024,4,SUP-0021,Gray-Mayo,Raw Materials,Vietnam,3358554.15,Low Risk,True,87.3,84.78,77.2,79.46,1,Approved,True
+SUP-000627,2024,1,SUP-0022,"Watts, Robinson and Nguyen",Professional Services,China,4321179.71,High Risk,True,52.32,45.86,55.52,44.96,7,Requires Improvement,True
+SUP-000628,2024,2,SUP-0022,"Watts, Robinson and Nguyen",Professional Services,China,4321179.71,High Risk,True,69.82,63.0,74.98,67.55,2,Conditional Approval,True
+SUP-000629,2024,3,SUP-0022,"Watts, Robinson and Nguyen",Professional Services,China,4321179.71,High Risk,True,59.44,58.08,57.61,62.83,8,Requires Improvement,True
+SUP-000630,2024,4,SUP-0022,"Watts, Robinson and Nguyen",Professional Services,China,4321179.71,High Risk,True,64.77,63.91,74.09,58.54,4,Requires Improvement,True
+SUP-000631,2024,1,SUP-0023,Perez Inc,Packaging,USA,852904.65,Medium Risk,False,85.49,80.37,69.49,83.54,1,Approved,True
+SUP-000632,2024,1,SUP-0024,Morales-Jones,Components,India,3700060.91,Medium Risk,False,76.5,72.24,77.74,79.64,2,Conditional Approval,True
+SUP-000633,2024,2,SUP-0024,Morales-Jones,Components,India,3700060.91,Medium Risk,False,65.66,67.25,58.86,62.42,4,Conditional Approval,True
+SUP-000634,2024,1,SUP-0025,"Walter, Edwards and Rios",Energy,South Korea,4647997.19,Low Risk,False,94.44,100.0,80.98,80.8,1,Approved,True
+SUP-000635,2024,1,SUP-0026,Wilkerson-Day,IT Services,China,2091162.22,Medium Risk,True,74.11,69.44,70.99,74.8,2,Conditional Approval,True
+SUP-000636,2024,2,SUP-0026,Wilkerson-Day,IT Services,China,2091162.22,Medium Risk,True,71.85,75.43,65.43,68.88,2,Conditional Approval,True
+SUP-000637,2024,3,SUP-0026,Wilkerson-Day,IT Services,China,2091162.22,Medium Risk,True,67.9,69.05,68.85,67.1,3,Conditional Approval,True
+SUP-000638,2024,4,SUP-0026,Wilkerson-Day,IT Services,China,2091162.22,Medium Risk,True,82.05,82.73,82.91,84.53,0,Conditional Approval,False
+SUP-000639,2024,1,SUP-0027,Baker and Sons,Energy,India,3180701.41,High Risk,False,,65.99,63.29,65.9,2,Requires Improvement,True
+SUP-000640,2024,1,SUP-0028,"Hoffman, Baker and Richards",IT Services,Other,2326932.34,Medium Risk,False,70.71,71.36,60.82,62.43,2,Conditional Approval,True
+SUP-000641,2024,2,SUP-0028,"Hoffman, Baker and Richards",IT Services,Other,2326932.34,Medium Risk,False,77.1,76.11,72.63,80.59,1,Conditional Approval,True
+SUP-000642,2024,1,SUP-0029,"Ross, Robinson and Bright",Packaging,Brazil,2570067.79,Medium Risk,False,83.95,80.51,84.89,87.49,1,Conditional Approval,True
+SUP-000643,2024,2,SUP-0029,"Ross, Robinson and Bright",Packaging,Brazil,2570067.79,Medium Risk,False,74.04,75.25,64.3,70.32,2,Conditional Approval,True
+SUP-000644,2024,1,SUP-0030,"Snyder, Campos and Callahan",Energy,Germany,2953574.7,Low Risk,False,85.22,82.23,87.33,82.85,1,Approved,True
+SUP-000645,2024,1,SUP-0031,Burton Ltd,Packaging,Germany,137009.27,Medium Risk,False,74.87,72.84,62.85,68.23,3,Conditional Approval,True
+SUP-000646,2024,2,SUP-0031,Burton Ltd,Packaging,Germany,137009.27,Medium Risk,False,68.28,63.36,56.85,69.73,4,Conditional Approval,True
+SUP-000647,2024,1,SUP-0032,Carlson-Cruz,Facilities Management,Mexico,1137338.08,Medium Risk,False,74.43,71.76,68.77,70.73,1,Conditional Approval,True
+SUP-000648,2024,2,SUP-0032,Carlson-Cruz,Facilities Management,Mexico,1137338.08,Medium Risk,False,80.94,75.34,80.63,78.67,2,Conditional Approval,True
+SUP-000649,2024,1,SUP-0033,"Ferrell, Rice and Maddox",Energy,USA,156378.41,Low Risk,False,88.81,88.23,83.11,78.94,2,Approved,True
+SUP-000650,2024,2,SUP-0033,"Ferrell, Rice and Maddox",Energy,USA,156378.41,Low Risk,False,85.93,87.07,72.49,88.32,1,Approved,True
+SUP-000651,2024,1,SUP-0034,Frazier Inc,Energy,South Korea,3424329.91,Medium Risk,True,67.32,61.44,57.63,59.82,3,Conditional Approval,True
+SUP-000652,2024,2,SUP-0034,Frazier Inc,Energy,South Korea,3424329.91,Medium Risk,True,77.45,72.24,70.07,70.8,3,Conditional Approval,True
+SUP-000653,2024,3,SUP-0034,Frazier Inc,Energy,South Korea,3424329.91,Medium Risk,True,67.23,63.16,63.44,65.0,2,Conditional Approval,True
+SUP-000654,2024,1,SUP-0035,"Dyer, Potter and Mack",Components,China,1492310.87,Low Risk,False,88.86,88.01,89.72,82.27,0,Approved,False
+SUP-000655,2024,2,SUP-0035,"Dyer, Potter and Mack",Components,China,1492310.87,Low Risk,False,81.45,73.76,73.5,75.29,0,Conditional Approval,False
+SUP-000656,2024,1,SUP-0036,Rodriguez-Graham,Components,USA,3594751.62,Low Risk,False,85.7,82.52,80.35,86.23,0,Approved,False
+SUP-000657,2024,2,SUP-0036,Rodriguez-Graham,Components,USA,3594751.62,Low Risk,False,,88.96,75.07,75.4,1,Conditional Approval,True
+SUP-000658,2024,1,SUP-0037,Smith-Bowen,IT Services,USA,3142843.5,Medium Risk,False,62.08,64.99,58.64,61.04,4,Requires Improvement,True
+SUP-000659,2024,2,SUP-0037,Smith-Bowen,IT Services,USA,3142843.5,Medium Risk,False,64.12,69.4,54.71,60.81,2,Requires Improvement,True
+SUP-000660,2024,1,SUP-0038,"Baker, Mason and White",Raw Materials,India,4331901.01,Medium Risk,False,63.96,67.99,64.44,57.62,4,Requires Improvement,True
+SUP-000661,2024,2,SUP-0038,"Baker, Mason and White",Raw Materials,India,4331901.01,Medium Risk,False,65.91,66.43,65.0,60.22,3,Conditional Approval,True
+SUP-000662,2024,1,SUP-0039,Harrell LLC,Logistics,USA,1075555.67,Low Risk,True,89.39,83.08,86.08,79.73,1,Approved,True
+SUP-000663,2024,2,SUP-0039,Harrell LLC,Logistics,USA,1075555.67,Low Risk,True,91.68,94.67,91.75,92.73,1,Approved,True
+SUP-000664,2024,3,SUP-0039,Harrell LLC,Logistics,USA,1075555.67,Low Risk,True,86.32,87.99,75.5,85.48,2,Approved,True
+SUP-000665,2024,1,SUP-0040,"Romero, Gonzalez and Brooks",Components,India,91391.97,Medium Risk,True,85.15,87.37,90.84,78.35,0,Approved,False
+SUP-000666,2024,2,SUP-0040,"Romero, Gonzalez and Brooks",Components,India,91391.97,Medium Risk,True,69.95,63.98,64.23,66.41,4,Conditional Approval,True
+SUP-000667,2024,3,SUP-0040,"Romero, Gonzalez and Brooks",Components,India,91391.97,Medium Risk,True,65.44,60.6,55.74,61.23,4,Conditional Approval,True
+SUP-000668,2024,4,SUP-0040,"Romero, Gonzalez and Brooks",Components,India,91391.97,Medium Risk,True,64.6,66.52,62.18,58.56,3,Requires Improvement,True
+SUP-000669,2024,1,SUP-0041,Ryan PLC,Professional Services,China,2357221.53,Medium Risk,False,64.21,65.28,67.15,62.84,4,Requires Improvement,True
+SUP-000670,2024,1,SUP-0042,George Group,Components,China,958105.29,Medium Risk,True,83.7,76.3,75.81,83.86,0,Conditional Approval,False
+SUP-000671,2024,2,SUP-0042,George Group,Components,China,958105.29,Medium Risk,True,69.94,70.28,61.67,60.36,3,Conditional Approval,True
+SUP-000672,2024,3,SUP-0042,George Group,Components,China,958105.29,Medium Risk,True,86.93,80.84,91.89,83.44,2,Approved,True
+SUP-000673,2024,4,SUP-0042,George Group,Components,China,958105.29,Medium Risk,True,80.97,77.27,77.74,78.4,1,Conditional Approval,True
+SUP-000674,2024,1,SUP-0043,Rodriguez LLC,Professional Services,China,4236892.83,Low Risk,True,83.37,86.01,81.91,88.32,1,Conditional Approval,True
+SUP-000675,2024,2,SUP-0043,Rodriguez LLC,Professional Services,China,4236892.83,Low Risk,True,76.7,62.81,73.6,67.91,4,Conditional Approval,True
+SUP-000676,2024,1,SUP-0044,Allen-Allen,Components,India,1561132.34,Medium Risk,False,83.15,80.3,80.89,77.0,0,Conditional Approval,False
+SUP-000677,2024,2,SUP-0044,Allen-Allen,Components,India,1561132.34,Medium Risk,False,83.68,81.88,74.51,83.96,2,Conditional Approval,True
+SUP-000678,2024,1,SUP-0045,"Arroyo, Miller and Tucker",IT Services,China,603937.94,Low Risk,False,97.39,91.67,89.26,87.42,1,Approved,True
+SUP-000679,2024,1,SUP-0046,Spence PLC,Components,China,3424283.86,Medium Risk,True,63.98,65.4,61.47,64.38,1,Requires Improvement,True
+SUP-000680,2024,2,SUP-0046,Spence PLC,Components,China,3424283.86,Medium Risk,True,67.99,69.46,72.59,67.21,1,Conditional Approval,True
+SUP-000681,2024,3,SUP-0046,Spence PLC,Components,China,3424283.86,Medium Risk,True,80.45,73.68,79.93,72.7,0,Conditional Approval,False
+SUP-000682,2024,4,SUP-0046,Spence PLC,Components,China,3424283.86,Medium Risk,True,78.19,80.07,64.83,75.23,3,Conditional Approval,True
+SUP-000683,2024,1,SUP-0047,Anderson Group,Components,USA,3248023.71,Medium Risk,False,82.36,77.45,79.92,85.57,0,Conditional Approval,False
+SUP-000684,2024,1,SUP-0048,"Martin, Rose and Obrien",Facilities Management,Mexico,4100556.58,High Risk,False,60.29,61.6,51.62,54.49,1,Requires Improvement,True
+SUP-000685,2024,2,SUP-0048,"Martin, Rose and Obrien",Facilities Management,Mexico,4100556.58,High Risk,False,29.91,28.59,31.01,26.64,6,Failed,True
+SUP-000686,2024,1,SUP-0049,Hickman Ltd,Packaging,Germany,69123.86,Low Risk,False,96.05,95.34,84.58,86.3,1,Approved,True
+SUP-000687,2024,1,SUP-0050,"Harris, Collins and Carney",Packaging,USA,2811994.26,Low Risk,False,89.48,88.15,74.0,82.29,0,Approved,False
+SUP-000688,2024,2,SUP-0050,"Harris, Collins and Carney",Packaging,USA,2811994.26,Low Risk,False,84.33,79.48,74.92,81.2,2,Conditional Approval,True
+SUP-000689,2024,1,SUP-0051,"Brooks, Lam and Hayes",IT Services,China,4976617.11,Low Risk,False,95.29,98.8,99.42,90.61,0,Approved,False
+SUP-000690,2024,1,SUP-0052,Walker LLC,Professional Services,Brazil,2321322.63,Low Risk,True,82.59,80.39,74.54,74.55,0,Conditional Approval,False
+SUP-000691,2024,2,SUP-0052,Walker LLC,Professional Services,Brazil,2321322.63,Low Risk,True,88.85,91.06,83.58,87.4,1,Approved,True
+SUP-000692,2024,1,SUP-0053,Chapman and Sons,IT Services,Brazil,3656564.78,Medium Risk,False,76.31,73.74,74.12,65.84,1,Conditional Approval,True
+SUP-000693,2024,2,SUP-0053,Chapman and Sons,IT Services,Brazil,3656564.78,Medium Risk,False,64.46,69.7,62.77,65.57,4,Requires Improvement,True
+SUP-000694,2024,1,SUP-0054,"Robinson, Jones and Welch",Logistics,China,1411618.31,Medium Risk,False,74.85,71.09,63.94,74.66,4,Conditional Approval,True
+SUP-000695,2024,1,SUP-0055,Jones Inc,Professional Services,USA,3698747.67,Medium Risk,False,75.83,74.22,72.78,78.5,2,Conditional Approval,True
+SUP-000696,2024,1,SUP-0056,Jones-Young,IT Services,Germany,4764055.44,Medium Risk,False,69.43,64.77,70.85,60.87,1,Conditional Approval,True
+SUP-000697,2024,1,SUP-0057,"Washington, Ryan and Cummings",IT Services,India,4400450.23,Low Risk,False,88.7,89.46,77.39,87.76,1,Approved,True
+SUP-000698,2024,1,SUP-0058,"Johnston, Sanchez and Kennedy",Logistics,South Korea,291076.24,Medium Risk,False,66.09,66.32,70.13,66.39,3,Conditional Approval,True
+SUP-000699,2024,2,SUP-0058,"Johnston, Sanchez and Kennedy",Logistics,South Korea,291076.24,Medium Risk,False,68.41,69.67,62.86,66.33,2,Conditional Approval,True
+SUP-000700,2024,1,SUP-0059,Lee-Davis,Packaging,India,947689.36,Low Risk,False,91.23,83.85,86.49,79.59,1,Approved,True
+SUP-000701,2024,2,SUP-0059,Lee-Davis,Packaging,India,947689.36,Low Risk,False,92.43,94.59,90.92,88.7,0,Approved,False
+SUP-000702,2024,1,SUP-0060,Gomez-Jenkins,Packaging,Germany,2863966.89,Medium Risk,False,59.1,53.85,53.86,50.28,6,Requires Improvement,True
+SUP-000703,2024,1,SUP-0061,"Brown, Valdez and Lucas",Components,Vietnam,3434486.64,Medium Risk,False,67.21,64.42,63.2,62.59,3,Conditional Approval,True
+SUP-000704,2024,1,SUP-0062,Powell LLC,Packaging,Brazil,3896130.98,Low Risk,False,89.08,86.95,88.24,82.12,1,Approved,True
+SUP-000705,2024,1,SUP-0063,Wright and Sons,IT Services,Germany,2631277.38,Medium Risk,True,62.64,58.92,52.53,58.11,3,Requires Improvement,True
+SUP-000706,2024,2,SUP-0063,Wright and Sons,IT Services,Germany,2631277.38,Medium Risk,True,58.03,55.35,61.79,53.73,4,Requires Improvement,True
+SUP-000707,2024,3,SUP-0063,Wright and Sons,IT Services,Germany,2631277.38,Medium Risk,True,65.07,67.19,55.64,59.86,2,Conditional Approval,True
+SUP-000708,2024,4,SUP-0063,Wright and Sons,IT Services,Germany,2631277.38,Medium Risk,True,78.39,75.98,71.98,75.11,3,Conditional Approval,True
+SUP-000709,2024,1,SUP-0064,"West, Henderson and Ramirez",Packaging,USA,1455566.93,Low Risk,False,91.98,88.15,80.5,80.04,0,Approved,False
+SUP-000710,2024,2,SUP-0064,"West, Henderson and Ramirez",Packaging,USA,1455566.93,Low Risk,False,82.47,76.71,79.2,76.98,2,Conditional Approval,True
+SUP-000711,2024,1,SUP-0065,Baxter Inc,Raw Materials,India,2134268.96,Medium Risk,False,76.32,69.85,72.65,75.74,3,Conditional Approval,True
+SUP-000712,2024,2,SUP-0065,Baxter Inc,Raw Materials,India,2134268.96,Medium Risk,False,61.3,60.81,63.1,55.58,3,Requires Improvement,True
+SUP-000713,2024,1,SUP-0066,Morton-Chase,Professional Services,Mexico,1417959.84,Medium Risk,True,71.56,67.68,63.66,67.51,4,Conditional Approval,True
+SUP-000714,2024,2,SUP-0066,Morton-Chase,Professional Services,Mexico,1417959.84,Medium Risk,True,74.62,75.35,70.96,69.43,1,Conditional Approval,True
+SUP-000715,2024,3,SUP-0066,Morton-Chase,Professional Services,Mexico,1417959.84,Medium Risk,True,68.83,66.33,64.84,61.96,4,Conditional Approval,True
+SUP-000716,2024,1,SUP-0067,Williams PLC,Energy,Germany,4307026.14,Low Risk,False,86.19,78.39,79.03,85.59,0,Approved,False
+SUP-000717,2024,2,SUP-0067,Williams PLC,Energy,Germany,4307026.14,Low Risk,False,85.04,85.14,72.15,77.37,2,Approved,True
+SUP-000718,2024,1,SUP-0068,Novak and Sons,Raw Materials,Taiwan,216617.12,Low Risk,False,98.03,98.0,82.99,97.62,2,Approved,True
+SUP-000719,2024,1,SUP-0069,Russell Group,Packaging,Taiwan,1173406.62,Low Risk,False,95.1,94.82,86.4,98.33,1,Approved,True
+SUP-000720,2024,2,SUP-0069,Russell Group,Packaging,Taiwan,1173406.62,Low Risk,False,96.88,92.0,90.42,100.0,1,Approved,True
+SUP-000721,2024,1,SUP-0070,Hancock Inc,Professional Services,Germany,4232483.74,Low Risk,False,89.15,88.65,88.32,91.22,2,Approved,True
+SUP-000722,2024,2,SUP-0070,Hancock Inc,Professional Services,Germany,4232483.74,Low Risk,False,95.57,91.02,87.63,97.31,1,Approved,True
+SUP-000723,2024,1,SUP-0071,Gray Group,Logistics,Brazil,1538585.98,High Risk,False,36.52,35.08,29.14,42.11,8,Failed,True
+SUP-000724,2024,1,SUP-0072,House-Glover,Facilities Management,Germany,1134306.31,High Risk,False,50.69,48.41,52.36,50.19,3,Requires Improvement,True
+SUP-000725,2024,2,SUP-0072,House-Glover,Facilities Management,Germany,1134306.31,High Risk,False,60.16,61.26,60.38,52.93,2,Requires Improvement,True
+SUP-000726,2024,1,SUP-0073,Henderson-Bernard,Professional Services,India,3171807.5,Medium Risk,True,72.67,77.92,71.14,72.72,2,Conditional Approval,True
+SUP-000727,2024,2,SUP-0073,Henderson-Bernard,Professional Services,India,3171807.5,Medium Risk,True,68.46,64.96,64.51,67.37,2,Conditional Approval,True
+SUP-000728,2024,3,SUP-0073,Henderson-Bernard,Professional Services,India,3171807.5,Medium Risk,True,76.27,79.87,74.08,71.3,1,Conditional Approval,True
+SUP-000729,2024,1,SUP-0074,"Stanley, Tucker and Lee",Raw Materials,Germany,628104.72,Low Risk,False,89.46,84.22,91.45,83.63,0,Approved,False
+SUP-000730,2024,2,SUP-0074,"Stanley, Tucker and Lee",Raw Materials,Germany,628104.72,Low Risk,False,100.0,100.0,99.66,100.0,0,Approved,False
+SUP-000731,2024,1,SUP-0075,Novak PLC,IT Services,China,55596.81,High Risk,False,56.76,52.84,58.92,52.0,5,Requires Improvement,True
+SUP-000732,2024,1,SUP-0076,"Daniels, Adkins and Brown",Components,China,2601946.22,Low Risk,False,84.25,87.69,80.06,82.39,1,Conditional Approval,True
+SUP-000733,2024,1,SUP-0077,"Woods, Calhoun and Schmidt",IT Services,China,2807089.08,Low Risk,False,83.96,75.07,81.33,89.88,0,Conditional Approval,False
+SUP-000734,2024,1,SUP-0078,Yu Inc,Facilities Management,Mexico,1331768.39,High Risk,False,51.13,51.88,52.02,47.73,5,Requires Improvement,True
+SUP-000735,2024,2,SUP-0078,Yu Inc,Facilities Management,Mexico,1331768.39,High Risk,False,43.8,46.65,41.26,42.89,7,Failed,True
+SUP-000736,2024,1,SUP-0079,Jones Inc,Packaging,India,1100229.88,Low Risk,False,100.0,91.25,95.75,100.0,1,Approved,True
+SUP-000737,2024,2,SUP-0079,Jones Inc,Packaging,India,1100229.88,Low Risk,False,96.22,90.37,94.3,89.06,2,Approved,True
+SUP-000738,2024,1,SUP-0080,"Hensley, Powell and David",Professional Services,Germany,3754673.06,Medium Risk,True,60.19,57.99,50.76,64.71,2,Requires Improvement,True
+SUP-000739,2024,2,SUP-0080,"Hensley, Powell and David",Professional Services,Germany,3754673.06,Medium Risk,True,71.26,70.96,63.89,61.78,1,Conditional Approval,True
+SUP-000740,2024,3,SUP-0080,"Hensley, Powell and David",Professional Services,Germany,3754673.06,Medium Risk,True,63.8,59.08,60.48,65.55,2,Requires Improvement,True
+SUP-000741,2024,1,SUP-0081,"Sanchez, Wheeler and Harvey",IT Services,China,1641706.45,Low Risk,True,83.44,77.52,76.43,82.51,2,Conditional Approval,True
+SUP-000742,2024,2,SUP-0081,"Sanchez, Wheeler and Harvey",IT Services,China,1641706.45,Low Risk,True,81.7,77.03,81.51,87.17,2,Conditional Approval,True
+SUP-000743,2024,3,SUP-0081,"Sanchez, Wheeler and Harvey",IT Services,China,1641706.45,Low Risk,True,100.0,89.47,86.04,97.51,0,Approved,False
+SUP-000744,2024,1,SUP-0082,Sandoval-Cunningham,Energy,China,1708292.5,Medium Risk,False,61.64,55.07,61.47,53.52,4,Requires Improvement,True
+SUP-000745,2024,2,SUP-0082,Sandoval-Cunningham,Energy,China,1708292.5,Medium Risk,False,66.98,65.29,67.77,63.37,1,Conditional Approval,True
+SUP-000746,2024,1,SUP-0083,Donovan-Harris,Packaging,China,4094516.73,Low Risk,True,78.29,78.17,80.06,74.08,3,Conditional Approval,True
+SUP-000747,2024,2,SUP-0083,Donovan-Harris,Packaging,China,4094516.73,Low Risk,True,93.38,83.24,91.55,91.68,0,Approved,False
+SUP-000748,2024,3,SUP-0083,Donovan-Harris,Packaging,China,4094516.73,Low Risk,True,80.85,75.54,84.09,75.85,0,Conditional Approval,False
+SUP-000749,2024,1,SUP-0084,"Edwards, Baker and Anderson",Packaging,China,990226.97,Low Risk,True,83.46,81.02,77.39,72.97,0,Conditional Approval,False
+SUP-000750,2024,2,SUP-0084,"Edwards, Baker and Anderson",Packaging,China,990226.97,Low Risk,True,80.19,78.54,77.26,76.3,1,Conditional Approval,True
+SUP-000751,2024,3,SUP-0084,"Edwards, Baker and Anderson",Packaging,China,990226.97,Low Risk,True,93.42,95.29,92.35,91.88,1,Approved,True
+SUP-000752,2024,4,SUP-0084,"Edwards, Baker and Anderson",Packaging,China,990226.97,Low Risk,True,95.46,96.54,96.36,98.05,2,Approved,True
+SUP-000753,2024,1,SUP-0085,"Evans, Stewart and Walton",Facilities Management,USA,2914456.69,Low Risk,False,99.13,95.15,99.55,100.0,0,Approved,False
+SUP-000754,2024,2,SUP-0085,"Evans, Stewart and Walton",Facilities Management,USA,2914456.69,Low Risk,False,79.74,72.06,79.38,76.75,2,Conditional Approval,True
+SUP-000755,2024,1,SUP-0086,Smith PLC,IT Services,China,3118586.93,Low Risk,False,87.39,80.2,88.61,78.53,2,Approved,True
+SUP-000756,2024,2,SUP-0086,Smith PLC,IT Services,China,3118586.93,Low Risk,False,96.72,91.63,98.74,87.14,0,Approved,False
+SUP-000757,2024,1,SUP-0087,"Ferrell, Jones and Lewis",Raw Materials,Mexico,3085129.37,Low Risk,True,95.88,98.97,91.3,93.95,0,Approved,False
+SUP-000758,2024,2,SUP-0087,"Ferrell, Jones and Lewis",Raw Materials,Mexico,3085129.37,Low Risk,True,80.83,71.66,68.16,72.43,0,Conditional Approval,False
+SUP-000759,2024,1,SUP-0088,Anderson-Bailey,Components,India,1902223.55,High Risk,False,44.57,42.82,38.47,38.53,6,Failed,True
+SUP-000760,2024,2,SUP-0088,Anderson-Bailey,Components,India,1902223.55,High Risk,False,37.62,36.08,35.18,38.31,5,Failed,True
+SUP-000761,2024,1,SUP-0089,Suarez LLC,IT Services,Vietnam,4806000.18,Medium Risk,False,65.22,59.97,68.1,63.79,2,Conditional Approval,True
+SUP-000762,2024,2,SUP-0089,Suarez LLC,IT Services,Vietnam,4806000.18,Medium Risk,False,68.9,63.15,58.18,68.56,1,Conditional Approval,True
+SUP-000763,2024,1,SUP-0090,Moore-Bass,Energy,Vietnam,2582691.61,Medium Risk,False,79.63,84.66,67.02,72.32,1,Conditional Approval,True
+SUP-000764,2024,1,SUP-0091,"Turner, Riggs and Roman",Professional Services,USA,281407.14,Medium Risk,True,83.92,82.8,85.32,78.3,2,Conditional Approval,True
+SUP-000765,2024,2,SUP-0091,"Turner, Riggs and Roman",Professional Services,USA,281407.14,Medium Risk,True,80.38,82.91,81.85,84.98,2,Conditional Approval,True
+SUP-000766,2024,1,SUP-0092,"Smith, Montoya and Evans",Packaging,USA,1665288.45,Medium Risk,False,55.79,54.79,59.52,53.5,8,Requires Improvement,True
+SUP-000767,2024,1,SUP-0093,"Garcia, Humphrey and Baker",Components,China,4529434.11,Low Risk,True,78.64,73.18,80.93,73.31,3,Conditional Approval,True
+SUP-000768,2024,2,SUP-0093,"Garcia, Humphrey and Baker",Components,China,4529434.11,Low Risk,True,85.7,90.61,76.07,85.13,0,Approved,False
+SUP-000769,2024,3,SUP-0093,"Garcia, Humphrey and Baker",Components,China,4529434.11,Low Risk,True,87.64,81.16,83.86,82.67,1,Approved,True
+SUP-000770,2024,4,SUP-0093,"Garcia, Humphrey and Baker",Components,China,4529434.11,Low Risk,True,95.99,100.0,91.35,88.0,1,Approved,True
+SUP-000771,2024,1,SUP-0094,Newton and Sons,Packaging,China,3970835.46,Low Risk,False,88.69,83.05,77.32,90.6,1,Approved,True
+SUP-000772,2024,2,SUP-0094,Newton and Sons,Packaging,China,3970835.46,Low Risk,False,89.89,85.4,97.98,87.27,1,Approved,True
+SUP-000773,2024,1,SUP-0095,Campbell-Clark,Energy,Germany,570497.8,Medium Risk,False,73.7,77.81,76.27,74.34,3,Conditional Approval,True
+SUP-000774,2024,2,SUP-0095,Campbell-Clark,Energy,Germany,570497.8,Medium Risk,False,72.34,70.22,77.1,76.0,1,Conditional Approval,True
+SUP-000775,2024,1,SUP-0096,Harris-Walters,Professional Services,Germany,454362.0,High Risk,False,46.9,43.0,37.58,43.3,7,Failed,True
+SUP-000776,2024,2,SUP-0096,Harris-Walters,Professional Services,Germany,454362.0,High Risk,False,40.11,40.14,33.92,36.52,6,Failed,True
+SUP-000777,2024,1,SUP-0097,Wagner-King,Components,South Korea,1413737.63,Medium Risk,False,63.11,66.05,58.57,61.11,1,Requires Improvement,True
+SUP-000778,2024,2,SUP-0097,Wagner-King,Components,South Korea,1413737.63,Medium Risk,False,86.95,85.77,88.63,79.96,0,Approved,False
+SUP-000779,2024,1,SUP-0098,Davis Group,Packaging,Taiwan,1281446.46,Medium Risk,True,67.1,66.22,65.61,71.69,4,Conditional Approval,True
+SUP-000780,2024,2,SUP-0098,Davis Group,Packaging,Taiwan,1281446.46,Medium Risk,True,63.33,62.07,68.41,58.2,4,Requires Improvement,True
+SUP-000781,2024,3,SUP-0098,Davis Group,Packaging,Taiwan,1281446.46,Medium Risk,True,85.47,83.3,80.27,87.67,1,Approved,True
+SUP-000782,2024,4,SUP-0098,Davis Group,Packaging,Taiwan,1281446.46,Medium Risk,True,72.26,67.24,65.26,79.22,1,Conditional Approval,True
+SUP-000783,2024,1,SUP-0099,Williams-Cook,Facilities Management,Brazil,3573436.36,High Risk,True,60.55,52.99,58.22,62.81,4,Requires Improvement,True
+SUP-000784,2024,2,SUP-0099,Williams-Cook,Facilities Management,Brazil,3573436.36,High Risk,True,56.72,54.31,56.29,52.92,4,Requires Improvement,True
+SUP-000785,2024,3,SUP-0099,Williams-Cook,Facilities Management,Brazil,3573436.36,High Risk,True,68.14,69.31,64.28,62.95,1,Conditional Approval,True
+SUP-000786,2024,4,SUP-0099,Williams-Cook,Facilities Management,Brazil,3573436.36,High Risk,True,49.2,44.51,43.38,44.71,8,Failed,True
+SUP-000787,2024,1,SUP-0100,Walsh LLC,IT Services,Mexico,2983311.06,Low Risk,False,97.51,94.6,91.61,99.5,0,Approved,False
+SUP-000788,2024,2,SUP-0100,Walsh LLC,IT Services,Mexico,2983311.06,Low Risk,False,78.06,83.18,84.15,77.8,1,Conditional Approval,True
+SUP-000789,2024,1,SUP-0101,Figueroa PLC,Energy,China,3661347.34,Medium Risk,True,66.55,58.2,68.27,67.65,4,Conditional Approval,True
+SUP-000790,2024,2,SUP-0101,Figueroa PLC,Energy,China,3661347.34,Medium Risk,True,69.45,67.47,65.84,70.09,3,Conditional Approval,True
+SUP-000791,2024,3,SUP-0101,Figueroa PLC,Energy,China,3661347.34,Medium Risk,True,74.82,66.12,61.01,72.29,3,Conditional Approval,True
+SUP-000792,2024,4,SUP-0101,Figueroa PLC,Energy,China,3661347.34,Medium Risk,True,73.53,68.91,79.65,75.13,2,Conditional Approval,True
+SUP-000793,2024,1,SUP-0102,"Patterson, Smith and Jones",Components,Germany,3296206.1,High Risk,True,37.03,38.42,31.37,34.84,3,Failed,True
+SUP-000794,2024,2,SUP-0102,"Patterson, Smith and Jones",Components,Germany,3296206.1,High Risk,True,60.27,57.63,59.51,61.5,4,Requires Improvement,True
+SUP-000795,2024,1,SUP-0103,"Mckee, Gardner and Davenport",Professional Services,Other,3910618.11,High Risk,False,58.25,53.49,62.94,58.44,7,Requires Improvement,True
+SUP-000796,2024,2,SUP-0103,"Mckee, Gardner and Davenport",Professional Services,Other,3910618.11,High Risk,False,55.2,54.33,52.48,51.71,3,Requires Improvement,True
+SUP-000797,2024,1,SUP-0104,"Tran, Jordan and Williams",Professional Services,China,2103261.52,High Risk,False,37.21,39.26,38.88,35.24,3,Failed,True
+SUP-000798,2024,2,SUP-0104,"Tran, Jordan and Williams",Professional Services,China,2103261.52,High Risk,False,50.31,47.83,49.52,45.04,8,Requires Improvement,True
+SUP-000799,2024,1,SUP-0105,Nolan-Flynn,IT Services,Vietnam,3427031.74,Low Risk,True,,100.0,100.0,89.42,2,Approved,True
+SUP-000800,2024,2,SUP-0105,Nolan-Flynn,IT Services,Vietnam,3427031.74,Low Risk,True,100.0,100.0,92.12,99.68,2,Approved,True
+SUP-000801,2024,3,SUP-0105,Nolan-Flynn,IT Services,Vietnam,3427031.74,Low Risk,True,91.35,85.71,80.57,77.28,1,Approved,True
+SUP-000802,2024,1,SUP-0106,Nolan and Sons,Facilities Management,Brazil,2402859.62,Low Risk,False,92.24,98.91,87.31,91.62,0,Approved,False
+SUP-000803,2024,2,SUP-0106,Nolan and Sons,Facilities Management,Brazil,2402859.62,Low Risk,False,95.96,90.7,90.36,89.32,0,Approved,False
+SUP-000804,2024,1,SUP-0107,"Wright, Garcia and Deleon",Packaging,Taiwan,1570852.73,Low Risk,False,98.51,92.27,100.0,89.91,2,Approved,True
+SUP-000805,2024,2,SUP-0107,"Wright, Garcia and Deleon",Packaging,Taiwan,1570852.73,Low Risk,False,87.73,84.95,88.43,89.03,2,Approved,True
+SUP-000806,2024,1,SUP-0108,Dickson-Brady,Facilities Management,South Korea,3480469.93,Low Risk,True,98.45,100.0,99.39,95.09,2,Approved,True
+SUP-000807,2024,2,SUP-0108,Dickson-Brady,Facilities Management,South Korea,3480469.93,Low Risk,True,91.07,90.49,82.28,89.01,1,Approved,True
+SUP-000808,2024,3,SUP-0108,Dickson-Brady,Facilities Management,South Korea,3480469.93,Low Risk,True,88.04,80.83,77.53,82.45,2,Approved,True
+SUP-000809,2024,1,SUP-0109,Hancock and Sons,Logistics,Germany,3491103.38,Medium Risk,False,78.79,72.85,77.25,71.07,4,Conditional Approval,True
+SUP-000810,2024,1,SUP-0110,Johnson-Doyle,Components,Vietnam,4368294.73,Medium Risk,False,80.63,74.68,87.91,81.26,0,Conditional Approval,False
+SUP-000811,2024,2,SUP-0110,Johnson-Doyle,Components,Vietnam,4368294.73,Medium Risk,False,80.74,78.13,78.01,70.92,1,Conditional Approval,True
+SUP-000812,2024,1,SUP-0111,Patton-Jenkins,Energy,China,1586604.47,High Risk,True,63.81,62.8,67.51,61.66,3,Requires Improvement,True
+SUP-000813,2024,2,SUP-0111,Patton-Jenkins,Energy,China,1586604.47,High Risk,True,54.85,57.34,48.39,55.37,6,Requires Improvement,True
+SUP-000814,2024,3,SUP-0111,Patton-Jenkins,Energy,China,1586604.47,High Risk,True,42.13,44.65,40.43,41.3,8,Failed,True
+SUP-000815,2024,4,SUP-0111,Patton-Jenkins,Energy,China,1586604.47,High Risk,True,64.85,60.6,54.5,54.89,2,Requires Improvement,True
+SUP-000816,2024,1,SUP-0112,"Shields, Cochran and Adams",Raw Materials,Vietnam,2907025.79,High Risk,True,73.75,70.18,61.65,69.15,4,Conditional Approval,True
+SUP-000817,2024,2,SUP-0112,"Shields, Cochran and Adams",Raw Materials,Vietnam,2907025.79,High Risk,True,37.98,36.79,41.94,37.68,3,Failed,True
+SUP-000818,2024,3,SUP-0112,"Shields, Cochran and Adams",Raw Materials,Vietnam,2907025.79,High Risk,True,60.17,60.32,56.1,58.22,2,Requires Improvement,True
+SUP-000819,2024,4,SUP-0112,"Shields, Cochran and Adams",Raw Materials,Vietnam,2907025.79,High Risk,True,41.53,44.6,35.55,39.16,8,Failed,True
+SUP-000820,2024,1,SUP-0113,"Rodriguez, Brennan and Garrison",Facilities Management,China,4370536.44,Medium Risk,False,61.7,60.86,60.43,58.72,4,Requires Improvement,True
+SUP-000821,2024,1,SUP-0114,Gonzalez Group,Packaging,India,1383911.59,Low Risk,True,92.63,88.82,93.67,91.56,2,Approved,True
+SUP-000822,2024,2,SUP-0114,Gonzalez Group,Packaging,India,1383911.59,Low Risk,True,84.85,79.42,85.17,87.74,1,Conditional Approval,True
+SUP-000823,2024,3,SUP-0114,Gonzalez Group,Packaging,India,1383911.59,Low Risk,True,81.59,79.41,75.75,80.46,2,Conditional Approval,True
+SUP-000824,2024,4,SUP-0114,Gonzalez Group,Packaging,India,1383911.59,Low Risk,True,93.85,90.56,79.63,93.64,1,Approved,True
+SUP-000825,2024,1,SUP-0115,Torres-Pope,IT Services,Germany,3575579.47,Medium Risk,False,61.08,59.64,59.99,56.6,1,Requires Improvement,True
+SUP-000826,2024,2,SUP-0115,Torres-Pope,IT Services,Germany,3575579.47,Medium Risk,False,80.02,73.81,80.91,75.09,1,Conditional Approval,True
+SUP-000827,2024,1,SUP-0116,Walker Ltd,Professional Services,India,70687.97,High Risk,False,57.76,52.22,47.02,53.55,3,Requires Improvement,True
+SUP-000828,2024,2,SUP-0116,Walker Ltd,Professional Services,India,70687.97,High Risk,False,57.02,48.6,61.05,53.54,5,Requires Improvement,True
+SUP-000829,2024,1,SUP-0117,Ross LLC,IT Services,Germany,4777547.53,Medium Risk,False,75.13,76.56,79.57,72.38,1,Conditional Approval,True
+SUP-000830,2024,1,SUP-0118,Rasmussen LLC,Logistics,China,4680399.47,Medium Risk,False,67.4,69.31,60.48,61.0,4,Conditional Approval,True
+SUP-000831,2024,2,SUP-0118,Rasmussen LLC,Logistics,China,4680399.47,Medium Risk,False,77.03,75.86,80.69,72.64,2,Conditional Approval,True
+SUP-000832,2024,1,SUP-0119,May-Ross,Raw Materials,USA,1478267.19,Low Risk,False,99.55,100.0,99.96,94.42,2,Approved,True
+SUP-000833,2024,2,SUP-0119,May-Ross,Raw Materials,USA,1478267.19,Low Risk,False,99.74,98.82,92.16,88.16,1,Approved,True
+SUP-000834,2024,1,SUP-0120,"Rivera, Johnson and Wiley",Packaging,USA,2019205.17,Low Risk,False,84.78,89.58,84.45,74.96,0,Conditional Approval,False
+SUP-000835,2024,1,SUP-0121,White-Estes,Professional Services,Vietnam,4675166.38,Medium Risk,True,62.05,62.63,51.84,59.77,2,Requires Improvement,True
+SUP-000836,2024,2,SUP-0121,White-Estes,Professional Services,Vietnam,4675166.38,Medium Risk,True,86.78,77.57,88.23,89.04,0,Approved,False
+SUP-000837,2024,3,SUP-0121,White-Estes,Professional Services,Vietnam,4675166.38,Medium Risk,True,61.02,59.23,61.23,61.17,1,Requires Improvement,True
+SUP-000838,2024,1,SUP-0122,Johnson-Carlson,IT Services,China,376230.16,Medium Risk,False,82.98,83.51,84.4,83.39,2,Conditional Approval,True
+SUP-000839,2024,2,SUP-0122,Johnson-Carlson,IT Services,China,376230.16,Medium Risk,False,61.32,59.48,61.48,56.24,2,Requires Improvement,True
+SUP-000840,2024,1,SUP-0123,Chandler-Edwards,Facilities Management,China,920478.9,Medium Risk,False,58.79,56.34,55.6,53.99,8,Requires Improvement,True
+SUP-000841,2024,2,SUP-0123,Chandler-Edwards,Facilities Management,China,920478.9,Medium Risk,False,68.74,63.14,61.39,73.66,4,Conditional Approval,True
+SUP-000842,2024,1,SUP-0124,"Joyce, Wilson and Lam",Facilities Management,Germany,4263466.78,Medium Risk,False,76.36,66.51,70.51,63.73,1,Conditional Approval,True
+SUP-000843,2024,2,SUP-0124,"Joyce, Wilson and Lam",Facilities Management,Germany,4263466.78,Medium Risk,False,73.11,67.51,70.85,62.73,1,Conditional Approval,True
+SUP-000844,2024,1,SUP-0125,Scott Ltd,Energy,India,1068429.67,Medium Risk,False,71.82,67.47,65.64,71.31,1,Conditional Approval,True
+SUP-000845,2024,2,SUP-0125,Scott Ltd,Energy,India,1068429.67,Medium Risk,False,67.82,68.44,68.91,62.55,4,Conditional Approval,True
+SUP-000846,2024,1,SUP-0126,Smith-Frost,Energy,India,1472124.38,Medium Risk,False,85.41,83.78,86.59,89.67,1,Approved,True
+SUP-000847,2024,1,SUP-0127,"Mcdaniel, Bentley and Mclaughlin",Components,Mexico,4584648.55,Low Risk,False,97.33,95.42,91.34,100.0,0,Approved,False
+SUP-000848,2024,1,SUP-0128,Diaz Inc,Energy,China,380211.42,Medium Risk,True,,64.58,62.83,62.62,3,Requires Improvement,True
+SUP-000849,2024,2,SUP-0128,Diaz Inc,Energy,China,380211.42,Medium Risk,True,84.04,80.87,82.44,80.71,0,Conditional Approval,False
+SUP-000850,2024,1,SUP-0129,"Mccall, Hanson and Alvarado",Professional Services,China,233001.77,Low Risk,True,95.5,96.79,87.23,98.8,2,Approved,True
+SUP-000851,2024,2,SUP-0129,"Mccall, Hanson and Alvarado",Professional Services,China,233001.77,Low Risk,True,80.35,81.19,68.62,71.13,1,Conditional Approval,True
+SUP-000852,2024,3,SUP-0129,"Mccall, Hanson and Alvarado",Professional Services,China,233001.77,Low Risk,True,91.09,87.41,89.72,88.07,0,Approved,False
+SUP-000853,2024,4,SUP-0129,"Mccall, Hanson and Alvarado",Professional Services,China,233001.77,Low Risk,True,90.14,87.38,90.45,86.43,1,Approved,True
+SUP-000854,2024,1,SUP-0130,Cortez LLC,Energy,USA,174474.58,Low Risk,True,88.77,84.18,90.01,82.44,2,Approved,True
+SUP-000855,2024,2,SUP-0130,Cortez LLC,Energy,USA,174474.58,Low Risk,True,84.44,84.66,85.55,84.22,0,Conditional Approval,False
+SUP-000856,2024,3,SUP-0130,Cortez LLC,Energy,USA,174474.58,Low Risk,True,92.61,96.48,89.81,99.11,1,Approved,True
+SUP-000857,2024,1,SUP-0131,"Parker, Ortiz and Powell",Logistics,USA,3862465.81,Low Risk,True,86.22,90.05,74.97,77.78,2,Approved,True
+SUP-000858,2024,2,SUP-0131,"Parker, Ortiz and Powell",Logistics,USA,3862465.81,Low Risk,True,96.1,93.94,76.4,91.03,2,Approved,True
+SUP-000859,2024,3,SUP-0131,"Parker, Ortiz and Powell",Logistics,USA,3862465.81,Low Risk,True,81.85,83.51,82.04,70.61,1,Conditional Approval,True
+SUP-000860,2024,1,SUP-0132,Spencer-Lee,Raw Materials,Mexico,123870.4,High Risk,False,56.96,56.84,55.02,48.87,7,Requires Improvement,True
+SUP-000861,2024,1,SUP-0133,"Bentley, Byrd and Orr",Professional Services,China,1972814.62,Low Risk,False,90.86,91.95,86.99,93.21,0,Approved,False
+SUP-000862,2024,2,SUP-0133,"Bentley, Byrd and Orr",Professional Services,China,1972814.62,Low Risk,False,86.8,90.84,74.57,88.56,2,Approved,True
+SUP-000863,2024,1,SUP-0134,"Carroll, Sullivan and Bass",Packaging,South Korea,873463.75,High Risk,True,47.16,47.44,46.05,47.29,5,Failed,True
+SUP-000864,2024,2,SUP-0134,"Carroll, Sullivan and Bass",Packaging,South Korea,873463.75,High Risk,True,64.87,65.39,59.75,58.39,2,Requires Improvement,True
+SUP-000865,2024,3,SUP-0134,"Carroll, Sullivan and Bass",Packaging,South Korea,873463.75,High Risk,True,58.98,55.14,60.81,52.31,7,Requires Improvement,True
+SUP-000866,2024,4,SUP-0134,"Carroll, Sullivan and Bass",Packaging,South Korea,873463.75,High Risk,True,50.99,55.71,47.7,43.08,5,Requires Improvement,True
+SUP-000867,2024,1,SUP-0135,Mitchell-Jordan,Packaging,USA,4601835.38,High Risk,True,36.5,40.0,31.44,26.11,5,Failed,True
+SUP-000868,2024,2,SUP-0135,Mitchell-Jordan,Packaging,USA,4601835.38,High Risk,True,38.83,33.65,40.78,41.7,4,Failed,True
+SUP-000869,2024,3,SUP-0135,Mitchell-Jordan,Packaging,USA,4601835.38,High Risk,True,64.38,64.53,68.67,60.25,4,Requires Improvement,True
+SUP-000870,2024,4,SUP-0135,Mitchell-Jordan,Packaging,USA,4601835.38,High Risk,True,40.67,42.96,44.43,40.53,3,Failed,True
+SUP-000871,2024,1,SUP-0136,"Lawson, Morris and Ramos",Packaging,China,2887709.8,Medium Risk,True,80.87,79.34,81.51,84.3,1,Conditional Approval,True
+SUP-000872,2024,2,SUP-0136,"Lawson, Morris and Ramos",Packaging,China,2887709.8,Medium Risk,True,77.99,69.89,62.09,73.64,4,Conditional Approval,True
+SUP-000873,2024,3,SUP-0136,"Lawson, Morris and Ramos",Packaging,China,2887709.8,Medium Risk,True,70.85,67.57,67.7,70.85,2,Conditional Approval,True
+SUP-000874,2024,1,SUP-0137,"Lewis, Kennedy and Santana",Components,China,3128458.17,Medium Risk,False,81.96,77.42,79.62,81.63,0,Conditional Approval,False
+SUP-000875,2024,2,SUP-0137,"Lewis, Kennedy and Santana",Components,China,3128458.17,Medium Risk,False,84.82,80.41,70.37,78.57,1,Conditional Approval,True
+SUP-000876,2024,1,SUP-0138,"Jackson, Miller and Robertson",Logistics,USA,2834536.09,Medium Risk,True,61.44,63.49,50.05,58.77,2,Requires Improvement,True
+SUP-000877,2024,2,SUP-0138,"Jackson, Miller and Robertson",Logistics,USA,2834536.09,Medium Risk,True,54.07,51.22,47.95,49.9,8,Requires Improvement,True
+SUP-000878,2024,1,SUP-0139,"Harvey, Davis and Crane",Raw Materials,Germany,4114153.21,High Risk,False,61.16,55.92,55.97,57.03,3,Requires Improvement,True
+SUP-000879,2024,2,SUP-0139,"Harvey, Davis and Crane",Raw Materials,Germany,4114153.21,High Risk,False,38.47,34.34,44.57,37.37,8,Failed,True
+SUP-000880,2024,1,SUP-0140,Chambers and Sons,Facilities Management,USA,3998669.54,Low Risk,True,,77.34,76.0,80.15,2,Conditional Approval,True
+SUP-000881,2024,2,SUP-0140,Chambers and Sons,Facilities Management,USA,3998669.54,Low Risk,True,99.14,91.21,100.0,100.0,1,Approved,True
+SUP-000882,2024,3,SUP-0140,Chambers and Sons,Facilities Management,USA,3998669.54,Low Risk,True,94.84,90.85,89.43,87.37,2,Approved,True
+SUP-000883,2024,4,SUP-0140,Chambers and Sons,Facilities Management,USA,3998669.54,Low Risk,True,99.57,96.62,94.54,98.16,2,Approved,True
+SUP-000884,2024,1,SUP-0141,Hernandez Inc,Facilities Management,Vietnam,1867364.77,Medium Risk,False,67.11,63.03,68.92,68.93,2,Conditional Approval,True
+SUP-000885,2024,1,SUP-0142,Riggs PLC,Logistics,India,1514476.91,Medium Risk,False,84.02,79.71,84.29,79.72,0,Conditional Approval,False
+SUP-000886,2024,1,SUP-0143,Gibson Ltd,Raw Materials,China,4296327.55,Low Risk,False,95.3,88.98,81.7,88.16,0,Approved,False
+SUP-000887,2024,1,SUP-0144,"Lee, Horton and Snyder",Facilities Management,India,1556103.55,Medium Risk,False,70.03,68.53,63.1,71.13,1,Conditional Approval,True
+SUP-000888,2024,2,SUP-0144,"Lee, Horton and Snyder",Facilities Management,India,1556103.55,Medium Risk,False,72.04,70.95,67.96,68.05,3,Conditional Approval,True
+SUP-000889,2024,1,SUP-0145,Hernandez Ltd,Professional Services,Taiwan,3765244.49,Medium Risk,False,75.6,73.19,72.99,74.28,4,Conditional Approval,True
+SUP-000890,2024,2,SUP-0145,Hernandez Ltd,Professional Services,Taiwan,3765244.49,Medium Risk,False,63.91,56.44,64.07,62.7,3,Requires Improvement,True
+SUP-000891,2024,1,SUP-0146,Stafford Inc,Professional Services,China,4302201.37,Low Risk,False,97.81,99.02,100.0,92.43,2,Approved,True
+SUP-000892,2024,1,SUP-0147,Robinson-Brock,IT Services,China,3765656.8,High Risk,True,44.99,43.65,39.6,42.25,6,Failed,True
+SUP-000893,2024,2,SUP-0147,Robinson-Brock,IT Services,China,3765656.8,High Risk,True,,54.12,48.88,49.36,6,Requires Improvement,True
+SUP-000894,2024,1,SUP-0148,"Holmes, Williams and Wright",Facilities Management,China,3300722.78,High Risk,False,55.63,51.02,57.32,53.96,8,Requires Improvement,True
+SUP-000895,2024,1,SUP-0149,Bryant Group,Raw Materials,China,1928193.22,Low Risk,False,100.0,94.32,90.74,95.35,2,Approved,True
+SUP-000896,2024,1,SUP-0150,"Schmidt, Hansen and Stewart",Raw Materials,Germany,3369810.8,Medium Risk,False,67.02,63.6,68.53,66.2,4,Conditional Approval,True
+SUP-000897,2024,2,SUP-0150,"Schmidt, Hansen and Stewart",Raw Materials,Germany,3369810.8,Medium Risk,False,59.78,62.15,48.87,55.07,8,Requires Improvement,True
+SUP-000332,2023,2,SUP-0019,"Adams, Zuniga and Wong",Facilities Management,Taiwan,273255.23,Medium Risk,False,,72.91,56.35,67.12,1,Conditional Approval,True
+SUP-000639,2024,1,SUP-0027,Baker and Sons,Energy,India,3180701.41,High Risk,False,,65.99,63.29,65.9,2,Requires Improvement,True
+SUP-000327,2023,1,SUP-0017,James Group,Raw Materials,China,2122124.28,Low Risk,False,,70.86,69.65,71.37,1,Conditional Approval,True
+SUP-000848,2024,1,SUP-0128,Diaz Inc,Energy,China,380211.42,Medium Risk,True,,64.58,62.83,62.62,3,Requires Improvement,True
+SUP-000040,2022,1,SUP-0021,Gray-Mayo,Raw Materials,Vietnam,3358554.15,Low Risk,True,,86.79,79.8,83.98,0,Approved,False
+SUP-000328,2023,2,SUP-0017,James Group,Raw Materials,China,2122124.28,Low Risk,False,,81.56,85.02,91.87,0,Approved,False
+SUP-000376,2023,1,SUP-0043,Rodriguez LLC,Professional Services,China,4236892.83,Low Risk,True,,89.23,95.29,92.93,2,Approved,True
+SUP-000335,2023,1,SUP-0021,Gray-Mayo,Raw Materials,Vietnam,3358554.15,Low Risk,True,,79.89,79.03,80.25,1,Conditional Approval,True
+SUP-000209,2022,2,SUP-0109,Hancock and Sons,Logistics,Germany,3491103.38,Medium Risk,False,,64.27,59.17,58.9,1,Requires Improvement,True
+SUP-000137,2022,3,SUP-0073,Henderson-Bernard,Professional Services,India,3171807.5,Medium Risk,True,,58.07,60.99,55.99,4,Requires Improvement,True
+SUP-000138,2022,1,SUP-0074,"Stanley, Tucker and Lee",Raw Materials,Germany,628104.72,Low Risk,False,,97.6,91.47,95.53,1,Approved,True
+SUP-000260,2022,2,SUP-0135,Mitchell-Jordan,Packaging,USA,4601835.38,High Risk,True,,37.63,44.15,38.4,7,Failed,True
+SUP-000351,2023,1,SUP-0030,"Snyder, Campos and Callahan",Energy,Germany,2953574.7,Low Risk,False,,90.79,88.06,86.54,1,Approved,True
+SUP-000228,2022,1,SUP-0120,"Rivera, Johnson and Wiley",Packaging,USA,2019205.17,Low Risk,False,,72.95,78.25,69.2,1,Conditional Approval,True
+SUP-000468,2023,1,SUP-0094,Newton and Sons,Packaging,China,3970835.46,Low Risk,False,,90.59,88.91,81.36,0,Approved,False
