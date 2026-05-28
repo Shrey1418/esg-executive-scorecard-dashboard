@@ -1,4 +1,0 @@
-year,scope1_tco2e,scope1_target,scope2_tco2e,scope2_target,gender_pay_gap_pct,gender_pay_gap_target,female_leadership_pct,female_leadership_target,injury_rate_pct,injury_rate_target,training_hours_avg,training_target,supplier_labor_compliance,supplier_target,board_independence_pct,board_target,policy_compliance_pct,policy_target,audit_resolution_days,resolution_target,whistleblower_per_1k,whistleblower_target,data_breaches,breach_target,environmental_score,social_score,governance_score,overall_esg_score
-2022,6706.84,5365.47,436.87,305.81,13.0,5,35.42,40,4.21,2.0,26.0,40,68.82,90,45.94,60,81.96,95,47.9,30,3.5,2.0,18,0,69.5,57.34,74.09,66.39
-2023,6327.95,5365.47,450.98,305.81,13.0,5,35.42,40,3.45,2.0,30.98,40,71.56,90,49.51,60,84.71,95,44.1,30,3.25,2.0,27,0,70.06,64.25,79.56,70.4
-2024,5887.68,5365.47,398.61,305.81,12.99,5,35.42,40,3.03,2.0,36.02,40,73.07,90,53.01,60,87.51,95,40.0,30,3.01,2.0,22,0,76.23,69.52,85.11,76.1
