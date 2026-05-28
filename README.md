@@ -43,13 +43,13 @@ Three questions needed answering:
 ## Dashboard Preview
 
 ### Page 1 — ESG Executive Scorecard
-![Page 1 ESG Executive Scorecard](screenshots/Page 1.png)
+![Page 1 ESG Executive Scorecard](screenshots/Page_1.png)
 
 ### Page 2 — Environmental & Social Performance
-![Page 2 Environmental and Social](screenshots/Page 2.png)
+![Page 2 Environmental and Social](screenshots/Page_2.png)
 
 ### Page 3 — Governance & Supplier Risk
-![Page 3 Governance and Supplier Risk](screenshots/Page 3.png)
+![Page 3 Governance and Supplier Risk](screenshots/Page_3.png)
 
 ---
 
