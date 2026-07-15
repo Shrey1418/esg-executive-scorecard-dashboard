@@ -138,43 +138,6 @@ See `sql/esg_queries.sql` for all 27 queries with comments.
 
 ---
 
-## Project Structure
-
-```
-esg-analytics-dashboard/
-│
-├── data/
-│   ├── esg_energy_emissions_raw.csv
-│   ├── esg_energy_emissions_clean.csv
-│   ├── esg_workforce_social_raw.csv
-│   ├── esg_workforce_social_clean.csv
-│   ├── esg_supplier_compliance_raw.csv
-│   ├── esg_supplier_compliance_clean.csv
-│   ├── esg_governance_raw.csv
-│   ├── esg_governance_clean.csv
-│   └── esg_kpi_summary.csv
-│
-├── notebooks/
-│   └── 01_esg_data_cleaning.ipynb
-│
-├── sql/
-│   └── esg_queries.sql
-│
-├── dashboard/
-│   └── esg_dashboard.pbix
-│
-├── reports/
-│   └── esg_investor_memo.pdf
-│
-├── screenshots/
-│   ├── page1.png
-│   ├── page2.png
-│   └── page3.png
-│
-├── generate_esg_dataset.py
-└── README.md
-```
-
 ---
 
 ## Tools Used
